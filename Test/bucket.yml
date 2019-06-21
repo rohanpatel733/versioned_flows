@@ -1,5 +1,5 @@
 flows:
-  63267ee3-a311-46bc-aeba-1ceec98ab6a9: {ver: 1, file: Flow1.snapshot, comments: '',
-    author: anonymous, created: 1561139331564, flowName: Flow1, flowDesc: ''}
+  63267ee3-a311-46bc-aeba-1ceec98ab6a9: {ver: 2, file: Flow1.snapshot, comments: 'Changed
+      name ', author: anonymous, created: 1561139535422, flowName: Flow1, flowDesc: ''}
 layoutVer: 1
 bucketId: cb3ce5d1-37ae-4c3c-81b3-9f5b4e2c077b

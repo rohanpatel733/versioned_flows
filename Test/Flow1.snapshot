@@ -235,7 +235,7 @@
         "comments" : "",
         "groupId" : "c52c2499-29db-3e01-b43b-02d23f70a333",
         "id" : "d7bd61bb-00d0-3850-811d-7e5ed88f57ae",
-        "name" : "ListDatabaseTables",
+        "name" : "ListDatabaseTables2",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -810,7 +810,7 @@
       "executionNode" : "PRIMARY",
       "groupIdentifier" : "c52c2499-29db-3e01-b43b-02d23f70a333",
       "identifier" : "d7bd61bb-00d0-3850-811d-7e5ed88f57ae",
-      "name" : "ListDatabaseTables",
+      "name" : "ListDatabaseTables2",
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -295.91365092003423,

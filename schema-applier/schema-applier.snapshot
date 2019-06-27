@@ -39,11 +39,11 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : 783.0982917172016,
-        "y" : 379.3094126462481
+        "x" : 793.7472174984516,
+        "y" : 382.2482249021075
       }, {
-        "x" : 783.0982917172016,
-        "y" : 429.3094126462481
+        "x" : 793.7472174984516,
+        "y" : 432.2482249021075
       } ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -75,11 +75,11 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : 790.6551951310164,
-        "y" : 607.8910535164911
+        "x" : 788.6191843888289,
+        "y" : 603.2525037118036
       }, {
-        "x" : 790.6551951310164,
-        "y" : 657.8910535164911
+        "x" : 788.6191843888289,
+        "y" : 653.2525037118036
       } ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -178,11 +178,11 @@
       "componentType" : "CONTROLLER_SERVICE",
       "controllerServiceApis" : [ {
         "bundle" : {
-          "artifact" : "nifi-hive-services-api-nar",
+          "artifact" : "nifi-standard-services-api-nar",
           "group" : "org.apache.nifi",
           "version" : "1.9.0.3.4.0.0-155"
         },
-        "type" : "org.apache.nifi.dbcp.hive.Hive3DBCPService"
+        "type" : "org.apache.nifi.dbcp.DBCPService"
       }, {
         "bundle" : {
           "artifact" : "nifi-hive-services-api-nar",
@@ -192,11 +192,11 @@
         "type" : "org.apache.nifi.dbcp.hive.HiveDBCPService"
       }, {
         "bundle" : {
-          "artifact" : "nifi-standard-services-api-nar",
+          "artifact" : "nifi-hive-services-api-nar",
           "group" : "org.apache.nifi",
           "version" : "1.9.0.3.4.0.0-155"
         },
-        "type" : "org.apache.nifi.dbcp.DBCPService"
+        "type" : "org.apache.nifi.dbcp.hive.Hive3DBCPService"
       } ],
       "groupIdentifier" : "1215c059-559f-343d-a936-3750bd1e8278",
       "identifier" : "6df7c246-6512-3a7b-a3ce-f64b7dbe4d29",
@@ -278,7 +278,7 @@
     "name" : "schema-applier",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 3214.312899999166,
+      "x" : 3213.312899999166,
       "y" : 214.88269750797508
     },
     "processGroups" : [ ],
@@ -299,8 +299,8 @@
       "name" : "SplitText",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 320.0982917172016,
-        "y" : 339.3094126462481
+        "x" : 330.7472174984516,
+        "y" : 342.2482249021075
       },
       "properties" : {
         "Remove Trailing Newlines" : "true",
@@ -362,8 +362,8 @@
       "name" : "DebugFlow",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 357.3041939896294,
-        "y" : 805.4633175551963
+        "x" : 333.3793893021294,
+        "y" : 767.0565182387901
       },
       "properties" : {
         "Write Iterations" : "0",
@@ -546,8 +546,8 @@
       "name" : "ExecuteProcess",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 327.15139539796996,
-        "y" : 110.6816371815919
+        "x" : 331.6584373291223,
+        "y" : 106.06824149067393
       },
       "properties" : {
         "Command" : "/home/nifi/schema-applier.sh",
@@ -600,84 +600,6 @@
       "type" : "org.apache.nifi.processors.standard.ExecuteProcess",
       "yieldDuration" : "1 sec"
     }, {
-      "autoTerminatedRelationships" : [ "original" ],
-      "bulletinLevel" : "WARN",
-      "bundle" : {
-        "artifact" : "nifi-standard-nar",
-        "group" : "org.apache.nifi",
-        "version" : "1.9.0.3.4.0.0-155"
-      },
-      "comments" : "",
-      "componentType" : "PROCESSOR",
-      "concurrentlySchedulableTaskCount" : 1,
-      "executionNode" : "ALL",
-      "groupIdentifier" : "1215c059-559f-343d-a936-3750bd1e8278",
-      "identifier" : "aca3bd10-bfd4-3880-979e-e897d4f748e6",
-      "name" : "ExecuteStreamCommand",
-      "penaltyDuration" : "30 sec",
-      "position" : {
-        "x" : 1108.9466052391347,
-        "y" : 196.45175004781436
-      },
-      "properties" : {
-        "Max Attribute Length" : "256",
-        "Command Path" : "/home/nifi/schema-applier.sh ",
-        "Working Directory" : "/home/nifi",
-        "Output Destination Attribute" : "result",
-        "Argument Delimiter" : " ",
-        "Ignore STDIN" : "true"
-      },
-      "propertyDescriptors" : {
-        "Max Attribute Length" : {
-          "displayName" : "Max Attribute Length",
-          "identifiesControllerService" : false,
-          "name" : "Max Attribute Length",
-          "sensitive" : false
-        },
-        "Command Path" : {
-          "displayName" : "Command Path",
-          "identifiesControllerService" : false,
-          "name" : "Command Path",
-          "sensitive" : false
-        },
-        "Working Directory" : {
-          "displayName" : "Working Directory",
-          "identifiesControllerService" : false,
-          "name" : "Working Directory",
-          "sensitive" : false
-        },
-        "Output Destination Attribute" : {
-          "displayName" : "Output Destination Attribute",
-          "identifiesControllerService" : false,
-          "name" : "Output Destination Attribute",
-          "sensitive" : false
-        },
-        "Argument Delimiter" : {
-          "displayName" : "Argument Delimiter",
-          "identifiesControllerService" : false,
-          "name" : "Argument Delimiter",
-          "sensitive" : false
-        },
-        "Ignore STDIN" : {
-          "displayName" : "Ignore STDIN",
-          "identifiesControllerService" : false,
-          "name" : "Ignore STDIN",
-          "sensitive" : false
-        },
-        "Command Arguments" : {
-          "displayName" : "Command Arguments",
-          "identifiesControllerService" : false,
-          "name" : "Command Arguments",
-          "sensitive" : false
-        }
-      },
-      "runDurationMillis" : 0,
-      "schedulingPeriod" : "0 sec",
-      "schedulingStrategy" : "TIMER_DRIVEN",
-      "style" : { },
-      "type" : "org.apache.nifi.processors.standard.ExecuteStreamCommand",
-      "yieldDuration" : "1 sec"
-    }, {
       "autoTerminatedRelationships" : [ "failure" ],
       "bulletinLevel" : "WARN",
       "bundle" : {
@@ -694,8 +616,8 @@
       "name" : "PutHiveQL",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 327.6551951310164,
-        "y" : 567.8910535164911
+        "x" : 325.6191843888289,
+        "y" : 563.2525037118036
       },
       "properties" : {
         "statement-delimiter" : ";",

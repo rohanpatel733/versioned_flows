@@ -279,7 +279,7 @@
     "outputPorts" : [ ],
     "position" : {
       "x" : 3213.312899999166,
-      "y" : 214.88269750797508
+      "y" : 213.88269750797508
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -531,7 +531,7 @@
       "yieldDuration" : "1 sec"
     }, {
       "autoTerminatedRelationships" : [ ],
-      "bulletinLevel" : "ERROR",
+      "bulletinLevel" : "DEBUG",
       "bundle" : {
         "artifact" : "nifi-standard-nar",
         "group" : "org.apache.nifi",

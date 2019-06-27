@@ -20,7 +20,7 @@
         "comments" : "",
         "groupId" : "c52c2499-29db-3e01-b43b-02d23f70a333",
         "id" : "4ff5c948-b04d-314c-a942-db151f8d99a0",
-        "name" : "GenerateTableFetch",
+        "name" : "GenerateTableFetch2",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -37,7 +37,7 @@
         "comments" : "",
         "groupId" : "c52c2499-29db-3e01-b43b-02d23f70a333",
         "id" : "4ff5c948-b04d-314c-a942-db151f8d99a0",
-        "name" : "GenerateTableFetch",
+        "name" : "GenerateTableFetch2",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -169,7 +169,7 @@
         "comments" : "",
         "groupId" : "c52c2499-29db-3e01-b43b-02d23f70a333",
         "id" : "4ff5c948-b04d-314c-a942-db151f8d99a0",
-        "name" : "GenerateTableFetch",
+        "name" : "GenerateTableFetch2",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -218,7 +218,7 @@
         "comments" : "",
         "groupId" : "c52c2499-29db-3e01-b43b-02d23f70a333",
         "id" : "4ff5c948-b04d-314c-a942-db151f8d99a0",
-        "name" : "GenerateTableFetch",
+        "name" : "GenerateTableFetch2",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -467,11 +467,11 @@
     "identifier" : "c52c2499-29db-3e01-b43b-02d23f70a333",
     "inputPorts" : [ ],
     "labels" : [ ],
-    "name" : "BatchIngestionRDBMS",
+    "name" : "TestBatchIngestionRDBMS",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 3209.2950110273396,
-      "y" : 447.12498629184734
+      "x" : 3214.7383704023396,
+      "y" : 447.56541597934734
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -887,7 +887,7 @@
       "executionNode" : "ALL",
       "groupIdentifier" : "c52c2499-29db-3e01-b43b-02d23f70a333",
       "identifier" : "4ff5c948-b04d-314c-a942-db151f8d99a0",
-      "name" : "GenerateTableFetch",
+      "name" : "GenerateTableFetch2",
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -293.8724301341664,

@@ -1,6 +1,6 @@
 flows:
-  63267ee3-a311-46bc-aeba-1ceec98ab6a9: {ver: 3, file: Flow1.snapshot, comments: This
-      is a test to show Danny, author: anonymous, created: 1561139850828, flowName: Flow1,
+  63267ee3-a311-46bc-aeba-1ceec98ab6a9: {ver: 4, file: Flow1.snapshot, comments: changed
+      name of process, author: anonymous, created: 1561643292457, flowName: Flow1,
     flowDesc: ''}
 layoutVer: 1
 bucketId: cb3ce5d1-37ae-4c3c-81b3-9f5b4e2c077b

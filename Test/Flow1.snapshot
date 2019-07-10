@@ -471,7 +471,7 @@
     "outputPorts" : [ ],
     "position" : {
       "x" : 3214.7383704023396,
-      "y" : 447.56541597934734
+      "y" : 448.56541597934734
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -813,8 +813,8 @@
       "name" : "ListDatabaseTables2",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -296.98228495323735,
-        "y" : -275.884673633837
+        "x" : -298.2582935591944,
+        "y" : -274.60865739848543
       },
       "properties" : {
         "list-db-tables-db-connection" : "bd999745-883c-347d-b82c-783b1f37487f",

@@ -303,11 +303,11 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : 170.08214142698182,
-        "y" : 386.97899875932285
+        "x" : 181.98034098523988,
+        "y" : 383.8478647261197
       }, {
-        "x" : 170.08214142698182,
-        "y" : 436.97899875932285
+        "x" : 181.98034098523988,
+        "y" : 433.8478647261197
       } ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -763,8 +763,8 @@
       "name" : "ConvertAvroToJSON",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -292.9178585730182,
-        "y" : 346.97899875932285
+        "x" : -281.0196590147601,
+        "y" : 343.8478647261197
       },
       "properties" : {
         "JSON container options" : "none",
@@ -813,8 +813,8 @@
       "name" : "ListDatabaseTables2",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -295.91365092003423,
-        "y" : -276.41899065043856
+        "x" : -296.98228495323735,
+        "y" : -275.884673633837
       },
       "properties" : {
         "list-db-tables-db-connection" : "bd999745-883c-347d-b82c-783b1f37487f",

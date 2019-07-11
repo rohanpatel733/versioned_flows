@@ -9,11 +9,11 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : -274.8153352987961,
-        "y" : 818.2414424053836
+        "x" : -291.6067171347336,
+        "y" : 821.0400263897586
       }, {
-        "x" : -274.8153352987961,
-        "y" : 868.2414424053836
+        "x" : -291.6067171347336,
+        "y" : 871.0400263897586
       } ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -45,10 +45,10 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : 907.6368457682337,
+        "x" : 886.6476489908899,
         "y" : 532.3391021144363
       }, {
-        "x" : 907.6368457682337,
+        "x" : 886.6476489908899,
         "y" : 582.3391021144363
       } ],
       "componentType" : "CONNECTION",
@@ -81,10 +81,10 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : 312.370157266698,
+        "x" : 291.3809147129871,
         "y" : 533.007911263701
       }, {
-        "x" : 312.370157266698,
+        "x" : 291.3809147129871,
         "y" : 583.007911263701
       } ],
       "componentType" : "CONNECTION",
@@ -117,11 +117,11 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : -270.4480334702366,
-        "y" : 536.009204066364
+        "x" : -291.4372912827366,
+        "y" : 534.6099120741765
       }, {
-        "x" : -270.4480334702366,
-        "y" : 586.009204066364
+        "x" : -291.4372912827366,
+        "y" : 584.6099120741765
       } ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -351,8 +351,8 @@
     "name" : "RabbitMQIngestion",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 2169.7788553370274,
-      "y" : 456.7981406200954
+      "x" : 2044.7725076807774,
+      "y" : 480.5493308056423
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -372,8 +372,8 @@
       "name" : "FlattenJson",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -733.4480334702366,
-        "y" : 496.00920406636396
+        "x" : -754.4372912827366,
+        "y" : 494.60991207417646
       },
       "properties" : {
         "flatten-mode" : "keep arrays",
@@ -416,7 +416,7 @@
       "name" : "PublishKafkaRecord_2_0",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -150.62984273330198,
+        "x" : -171.61908528701292,
         "y" : 493.007911263701
       },
       "properties" : {
@@ -430,7 +430,7 @@
         "max.request.size" : "1 MB",
         "max.block.ms" : "5 sec",
         "partitioner.class" : "org.apache.kafka.clients.producer.internals.DefaultPartitioner",
-        "topic" : "time.topic.getAll",
+        "topic" : "rec.getAll",
         "record-reader" : "591575fd-6ac4-30d8-acab-18c2e18cb0e7",
         "message-header-encoding" : "UTF-8"
       },
@@ -691,8 +691,8 @@
       "name" : "PutHBaseJSON",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -737.8153352987961,
-        "y" : 778.2414424053836
+        "x" : -754.6067171347336,
+        "y" : 781.0400263897586
       },
       "properties" : {
         "Row Identifier" : "${UUID()}",
@@ -789,7 +789,7 @@
       "name" : "PutHDFS",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 444.6368457682337,
+        "x" : 423.64764899088993,
         "y" : 492.3391021144363
       },
       "properties" : {

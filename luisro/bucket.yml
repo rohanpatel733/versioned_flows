@@ -1,7 +1,4 @@
 flows:
-  90131b61-48bd-4223-a0ad-ee06de058101: {ver: 1, file: WFMKafkaIngestion.snapshot,
-    comments: Initial commit, author: anonymous, created: 1563388213179, flowName: WFMKafkaIngestion,
-    flowDesc: ''}
   7ac2bcac-d684-41ee-a27e-389f618d6ba1: {ver: 1, file: schema-applier.snapshot, comments: Initial
       commit, author: anonymous, created: 1563388256608, flowName: schema-applier,
     flowDesc: ''}

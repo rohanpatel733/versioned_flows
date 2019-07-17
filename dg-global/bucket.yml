@@ -2,6 +2,9 @@ flows:
   15dc470e-7969-4d4c-98d8-52bf2064287d: {ver: 1, file: WFMKafkaIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393492641, flowName: WFMKafkaIngestion,
     flowDesc: ''}
+  5bbcd282-e1a3-4db4-bf74-6917a5844bb5: {ver: 1, file: schema-applier.snapshot, comments: Initial
+      commit, author: anonymous, created: 1563393585717, flowName: schema-applier,
+    flowDesc: ''}
   1b2a5bc2-26b1-4828-98c3-39d6be34def6: {ver: 1, file: BatchIngestionMongoDB.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393431331, flowName: BatchIngestionMongoDB,
     flowDesc: ''}

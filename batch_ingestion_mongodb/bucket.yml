@@ -1,6 +1,0 @@
-flows:
-  5c03af78-34df-441a-a7e0-205d534ef9cf: {ver: 1, file: schema-applier.snapshot, comments: Initial
-      commit, author: anonymous, created: 1563393543413, flowName: schema-applier,
-    flowDesc: ''}
-layoutVer: 1
-bucketId: 15cbaff5-309c-4e4c-b025-fac606a9d2a4

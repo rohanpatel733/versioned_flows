@@ -1019,7 +1019,7 @@
       },
       "properties" : {
         "Row Identifier" : "ARCALEN|${created_at}|${eventid.0}",
-        "Table Name" : "rec_data_lake",
+        "Table Name" : "data_lake_rec_opportunity",
         "Row Identifier Encoding Strategy" : "String",
         "Complex Field Strategy" : "Text",
         "Batch Size" : "1",

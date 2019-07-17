@@ -1,4 +1,7 @@
 flows:
+  1b2a5bc2-26b1-4828-98c3-39d6be34def6: {ver: 1, file: BatchIngestionMongoDB.snapshot,
+    comments: Initial commit, author: anonymous, created: 1563393431331, flowName: BatchIngestionMongoDB,
+    flowDesc: ''}
   3db45db8-50d6-4db5-802d-96dc4a8a5ba4: {ver: 4, file: TestBatchIngestionRDBMS.snapshot,
     comments: changed your changes danielgo, author: anonymous, created: 1563389471720,
     flowName: TestBatchIngestionRDBMS, flowDesc: ''}

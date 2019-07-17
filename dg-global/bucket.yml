@@ -17,6 +17,9 @@ flows:
   38fa81c9-b902-48ec-ba88-359aaf87f569: {ver: 1, file: BatchIngestionRDBMS.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393600279, flowName: BatchIngestionRDBMS,
     flowDesc: ''}
+  8ed5e0d7-926b-4091-ae21-2c87d57dee5d: {ver: 1, file: MonitoringPGTest.snapshot,
+    comments: Initial commit, author: anonymous, created: 1563393898239, flowName: MonitoringPGTest,
+    flowDesc: ''}
   5b2f8dc1-529b-4a46-ab50-9e1430c7f79c: {ver: 1, file: StreamingIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393520989, flowName: StreamingIngestion,
     flowDesc: ''}

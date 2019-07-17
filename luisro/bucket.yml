@@ -2,6 +2,9 @@ flows:
   90131b61-48bd-4223-a0ad-ee06de058101: {ver: 1, file: WFMKafkaIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563388213179, flowName: WFMKafkaIngestion,
     flowDesc: ''}
+  a726ccca-c8a7-4365-9d3e-01f5048fc47b: {ver: 1, file: RabbitMQIngestion.snapshot,
+    comments: Initial commit, author: anonymous, created: 1563388243638, flowName: RabbitMQIngestion,
+    flowDesc: ''}
   918ac146-15d9-4a00-b555-689573c46efc: {ver: 1, file: BathIngestionMongoDB.snapshot,
     comments: Initial commit, author: anonymous, created: 1563388194449, flowName: BathIngestionMongoDB,
     flowDesc: ''}

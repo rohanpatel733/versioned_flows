@@ -11,9 +11,6 @@ flows:
   2a6f075e-14c9-4ee4-9aa0-b6b4be769811: {ver: 1, file: StreamingIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563388281139, flowName: StreamingIngestion,
     flowDesc: ''}
-  918ac146-15d9-4a00-b555-689573c46efc: {ver: 1, file: BathIngestionMongoDB.snapshot,
-    comments: Initial commit, author: anonymous, created: 1563388194449, flowName: BathIngestionMongoDB,
-    flowDesc: ''}
   7ac2bcac-d684-41ee-a27e-389f618d6ba1: {ver: 1, file: schema-applier.snapshot, comments: Initial
       commit, author: anonymous, created: 1563388256608, flowName: schema-applier,
     flowDesc: ''}

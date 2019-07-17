@@ -1,6 +1,0 @@
-flows:
-  14d5b7c4-43c4-4c67-8ec3-f1d232590829: {ver: 1, file: TestBatchIngestionRDBMS.snapshot,
-    comments: Initial commit, author: anonymous, created: 1563388491111, flowName: TestBatchIngestionRDBMS,
-    flowDesc: ''}
-layoutVer: 1
-bucketId: b0ce2a78-51f9-4f38-a806-a556d2fa5f60

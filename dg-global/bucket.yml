@@ -1,4 +1,7 @@
 flows:
+  3db45db8-50d6-4db5-802d-96dc4a8a5ba4: {ver: 1, file: TestBatchIngestionRDBMS.snapshot,
+    comments: Initial commit, author: anonymous, created: 1563388548757, flowName: TestBatchIngestionRDBMS,
+    flowDesc: ''}
   5519e132-faef-44db-a207-3d9d62a09797: {ver: 1, file: testbatchingestionrdbms.snapshot,
     comments: initial commit, author: anonymous, created: 1563387078735, flowName: testbatchingestionrdbms,
     flowDesc: test flow for vcs}

@@ -1,0 +1,6 @@
+flows:
+  d56e9f78-dc8b-4791-b5be-6d5adbca588c: {ver: 1, file: RabbitMQIngestion.snapshot,
+    comments: Initial commit, author: anonymous, created: 1563393504173, flowName: RabbitMQIngestion,
+    flowDesc: ''}
+layoutVer: 1
+bucketId: d0c78a8a-8a57-4a63-9b04-1f01ba670acd

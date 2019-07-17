@@ -1,0 +1,457 @@
+{
+  "header" : {
+    "dataModelVersion" : "2"
+  },
+  "content" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ {
+        "x" : 793.7472174984516,
+        "y" : 382.2482249021075
+      }, {
+        "x" : 793.7472174984516,
+        "y" : 432.2482249021075
+      } ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "1215c059-559f-343d-a936-3750bd1e8278",
+        "id" : "b1a37649-9b86-3b12-b5b8-f4991fa72b8b",
+        "name" : "SplitText",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "1215c059-559f-343d-a936-3750bd1e8278",
+      "identifier" : "43b1dd1c-e7d4-3fdd-a690-970cbba33e2f",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "failure" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "1215c059-559f-343d-a936-3750bd1e8278",
+        "id" : "b1a37649-9b86-3b12-b5b8-f4991fa72b8b",
+        "name" : "SplitText",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ {
+        "x" : 788.6191843888289,
+        "y" : 603.2525037118036
+      }, {
+        "x" : 788.6191843888289,
+        "y" : 653.2525037118036
+      } ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "1215c059-559f-343d-a936-3750bd1e8278",
+        "id" : "210f474e-db57-3e8b-a4c9-534fd7901dcd",
+        "name" : "PutHiveQL",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "1215c059-559f-343d-a936-3750bd1e8278",
+      "identifier" : "febf6a4b-63e7-31c9-93ea-42fc29ec854d",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "retry" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "1215c059-559f-343d-a936-3750bd1e8278",
+        "id" : "210f474e-db57-3e8b-a4c9-534fd7901dcd",
+        "name" : "PutHiveQL",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "1215c059-559f-343d-a936-3750bd1e8278",
+        "id" : "b1a37649-9b86-3b12-b5b8-f4991fa72b8b",
+        "name" : "SplitText",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "1215c059-559f-343d-a936-3750bd1e8278",
+      "identifier" : "0290de1b-88f8-3fc9-8b6a-ba867d3146e9",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "1215c059-559f-343d-a936-3750bd1e8278",
+        "id" : "297ee075-8b6b-381d-bbaf-78e8e3b2e4f2",
+        "name" : "ExecuteProcess",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "1215c059-559f-343d-a936-3750bd1e8278",
+        "id" : "210f474e-db57-3e8b-a4c9-534fd7901dcd",
+        "name" : "PutHiveQL",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "1215c059-559f-343d-a936-3750bd1e8278",
+      "identifier" : "e07f6430-ad00-3c36-9671-2390d63cac4f",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "splits" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "1215c059-559f-343d-a936-3750bd1e8278",
+        "id" : "b1a37649-9b86-3b12-b5b8-f4991fa72b8b",
+        "name" : "SplitText",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    } ],
+    "controllerServices" : [ {
+      "bundle" : {
+        "artifact" : "nifi-hive3-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0.3.4.0.0-155"
+      },
+      "comments" : "",
+      "componentType" : "CONTROLLER_SERVICE",
+      "controllerServiceApis" : [ {
+        "bundle" : {
+          "artifact" : "nifi-hive-services-api-nar",
+          "group" : "org.apache.nifi",
+          "version" : "1.9.0.3.4.0.0-155"
+        },
+        "type" : "org.apache.nifi.dbcp.hive.HiveDBCPService"
+      }, {
+        "bundle" : {
+          "artifact" : "nifi-hive-services-api-nar",
+          "group" : "org.apache.nifi",
+          "version" : "1.9.0.3.4.0.0-155"
+        },
+        "type" : "org.apache.nifi.dbcp.hive.Hive3DBCPService"
+      }, {
+        "bundle" : {
+          "artifact" : "nifi-standard-services-api-nar",
+          "group" : "org.apache.nifi",
+          "version" : "1.9.0.3.4.0.0-155"
+        },
+        "type" : "org.apache.nifi.dbcp.DBCPService"
+      } ],
+      "groupIdentifier" : "1215c059-559f-343d-a936-3750bd1e8278",
+      "identifier" : "6df7c246-6512-3a7b-a3ce-f64b7dbe4d29",
+      "name" : "Hive3ConnectionPool",
+      "properties" : {
+        "hive-max-total-connections" : "8",
+        "hive-db-connect-url" : "jdbc:hive2://dw-sb-31-mn01.mia.ucloud.int:2181,dw-sb-31-mn02.mia.ucloud.int:2181,dw-sb-31-mn03.mia.ucloud.int:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2",
+        "hive-max-wait-time" : "500 millis",
+        "hive-db-user" : "hive"
+      },
+      "propertyDescriptors" : {
+        "kerberos-credentials-service" : {
+          "displayName" : "Kerberos Credentials Service",
+          "identifiesControllerService" : true,
+          "name" : "kerberos-credentials-service",
+          "sensitive" : false
+        },
+        "Validation-query" : {
+          "displayName" : "Validation query",
+          "identifiesControllerService" : false,
+          "name" : "Validation-query",
+          "sensitive" : false
+        },
+        "Kerberos Keytab" : {
+          "displayName" : "Kerberos Keytab",
+          "identifiesControllerService" : false,
+          "name" : "Kerberos Keytab",
+          "sensitive" : false
+        },
+        "hive-max-total-connections" : {
+          "displayName" : "Max Total Connections",
+          "identifiesControllerService" : false,
+          "name" : "hive-max-total-connections",
+          "sensitive" : false
+        },
+        "hive-db-password" : {
+          "displayName" : "Password",
+          "identifiesControllerService" : false,
+          "name" : "hive-db-password",
+          "sensitive" : false
+        },
+        "hive-db-connect-url" : {
+          "displayName" : "Database Connection URL",
+          "identifiesControllerService" : false,
+          "name" : "hive-db-connect-url",
+          "sensitive" : false
+        },
+        "Kerberos Principal" : {
+          "displayName" : "Kerberos Principal",
+          "identifiesControllerService" : false,
+          "name" : "Kerberos Principal",
+          "sensitive" : false
+        },
+        "hive-config-resources" : {
+          "displayName" : "Hive Configuration Resources",
+          "identifiesControllerService" : false,
+          "name" : "hive-config-resources",
+          "sensitive" : false
+        },
+        "hive-max-wait-time" : {
+          "displayName" : "Max Wait Time",
+          "identifiesControllerService" : false,
+          "name" : "hive-max-wait-time",
+          "sensitive" : false
+        },
+        "hive-db-user" : {
+          "displayName" : "Database User",
+          "identifiesControllerService" : false,
+          "name" : "hive-db-user",
+          "sensitive" : false
+        }
+      },
+      "type" : "org.apache.nifi.dbcp.hive.Hive3ConnectionPool"
+    } ],
+    "funnels" : [ ],
+    "identifier" : "1215c059-559f-343d-a936-3750bd1e8278",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "name" : "schema-applier",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 2196.997958592916,
+      "y" : 689.6923746319985
+    },
+    "processGroups" : [ ],
+    "processors" : [ {
+      "autoTerminatedRelationships" : [ "original" ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0.3.4.0.0-155"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "1215c059-559f-343d-a936-3750bd1e8278",
+      "identifier" : "b1a37649-9b86-3b12-b5b8-f4991fa72b8b",
+      "name" : "SplitText",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 330.7472174984516,
+        "y" : 342.2482249021075
+      },
+      "properties" : {
+        "Remove Trailing Newlines" : "true",
+        "Header Line Count" : "0",
+        "Line Split Count" : "1"
+      },
+      "propertyDescriptors" : {
+        "Remove Trailing Newlines" : {
+          "displayName" : "Remove Trailing Newlines",
+          "identifiesControllerService" : false,
+          "name" : "Remove Trailing Newlines",
+          "sensitive" : false
+        },
+        "Maximum Fragment Size" : {
+          "displayName" : "Maximum Fragment Size",
+          "identifiesControllerService" : false,
+          "name" : "Maximum Fragment Size",
+          "sensitive" : false
+        },
+        "Header Line Marker Characters" : {
+          "displayName" : "Header Line Marker Characters",
+          "identifiesControllerService" : false,
+          "name" : "Header Line Marker Characters",
+          "sensitive" : false
+        },
+        "Header Line Count" : {
+          "displayName" : "Header Line Count",
+          "identifiesControllerService" : false,
+          "name" : "Header Line Count",
+          "sensitive" : false
+        },
+        "Line Split Count" : {
+          "displayName" : "Line Split Count",
+          "identifiesControllerService" : false,
+          "name" : "Line Split Count",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.SplitText",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "DEBUG",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0.3.4.0.0-155"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "PRIMARY",
+      "groupIdentifier" : "1215c059-559f-343d-a936-3750bd1e8278",
+      "identifier" : "297ee075-8b6b-381d-bbaf-78e8e3b2e4f2",
+      "name" : "ExecuteProcess",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 331.6584373291223,
+        "y" : 106.06824149067393
+      },
+      "properties" : {
+        "Command" : "/home/nifi/schema-applier.sh",
+        "Redirect Error Stream" : "false",
+        "Working Directory" : "/home/nifi",
+        "Argument Delimiter" : " "
+      },
+      "propertyDescriptors" : {
+        "Command" : {
+          "displayName" : "Command",
+          "identifiesControllerService" : false,
+          "name" : "Command",
+          "sensitive" : false
+        },
+        "Redirect Error Stream" : {
+          "displayName" : "Redirect Error Stream",
+          "identifiesControllerService" : false,
+          "name" : "Redirect Error Stream",
+          "sensitive" : false
+        },
+        "Working Directory" : {
+          "displayName" : "Working Directory",
+          "identifiesControllerService" : false,
+          "name" : "Working Directory",
+          "sensitive" : false
+        },
+        "Argument Delimiter" : {
+          "displayName" : "Argument Delimiter",
+          "identifiesControllerService" : false,
+          "name" : "Argument Delimiter",
+          "sensitive" : false
+        },
+        "Batch Duration" : {
+          "displayName" : "Batch Duration",
+          "identifiesControllerService" : false,
+          "name" : "Batch Duration",
+          "sensitive" : false
+        },
+        "Command Arguments" : {
+          "displayName" : "Command Arguments",
+          "identifiesControllerService" : false,
+          "name" : "Command Arguments",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "300 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.ExecuteProcess",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ "success", "failure" ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-hive-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0.3.4.0.0-155"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "1215c059-559f-343d-a936-3750bd1e8278",
+      "identifier" : "210f474e-db57-3e8b-a4c9-534fd7901dcd",
+      "name" : "PutHiveQL",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 325.6191843888289,
+        "y" : 563.2525037118036
+      },
+      "properties" : {
+        "statement-delimiter" : ";",
+        "Hive Database Connection Pooling Service" : "6df7c246-6512-3a7b-a3ce-f64b7dbe4d29",
+        "hive-charset" : "UTF-8",
+        "rollback-on-failure" : "false",
+        "hive-batch-size" : "100"
+      },
+      "propertyDescriptors" : {
+        "statement-delimiter" : {
+          "displayName" : "Statement Delimiter",
+          "identifiesControllerService" : false,
+          "name" : "statement-delimiter",
+          "sensitive" : false
+        },
+        "Hive Database Connection Pooling Service" : {
+          "displayName" : "Hive Database Connection Pooling Service",
+          "identifiesControllerService" : true,
+          "name" : "Hive Database Connection Pooling Service",
+          "sensitive" : false
+        },
+        "hive-charset" : {
+          "displayName" : "Character Set",
+          "identifiesControllerService" : false,
+          "name" : "hive-charset",
+          "sensitive" : false
+        },
+        "rollback-on-failure" : {
+          "displayName" : "Rollback On Failure",
+          "identifiesControllerService" : false,
+          "name" : "rollback-on-failure",
+          "sensitive" : false
+        },
+        "hive-batch-size" : {
+          "displayName" : "Batch Size",
+          "identifiesControllerService" : false,
+          "name" : "hive-batch-size",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.hive.PutHiveQL",
+      "yieldDuration" : "1 sec"
+    } ],
+    "remoteProcessGroups" : [ ],
+    "variables" : { }
+  }
+}

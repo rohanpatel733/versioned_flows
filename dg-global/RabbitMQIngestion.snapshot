@@ -292,10 +292,10 @@
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
         "x" : -449.7657939377659,
-        "y" : 1372.0367004042546
+        "y" : 1373.5757629042546
       }, {
         "x" : -449.7657939377659,
-        "y" : 1422.0367004042546
+        "y" : 1423.5757629042546
       } ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -467,13 +467,13 @@
     "name" : "RabbitMQIngestion",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 1779.9947977198399,
-      "y" : 686.5001059521267
+      "x" : 1832.2918370133693,
+      "y" : 474.1268306212752
     },
     "processGroups" : [ ],
     "processors" : [ {
       "autoTerminatedRelationships" : [ "failure", "unmatched" ],
-      "bulletinLevel" : "DEBUG",
+      "bulletinLevel" : "WARN",
       "bundle" : {
         "artifact" : "nifi-standard-nar",
         "group" : "org.apache.nifi",
@@ -545,7 +545,7 @@
       "yieldDuration" : "1 sec"
     }, {
       "autoTerminatedRelationships" : [ ],
-      "bulletinLevel" : "WARN",
+      "bulletinLevel" : "DEBUG",
       "bundle" : {
         "artifact" : "nifi-standard-nar",
         "group" : "org.apache.nifi",
@@ -561,7 +561,7 @@
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -912.7657939377659,
-        "y" : 1332.0367004042546
+        "y" : 1333.5757629042546
       },
       "properties" : {
         "flatten-mode" : "keep arrays",
@@ -1014,8 +1014,8 @@
       "name" : "PutHBaseJSON",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -912.7946367514328,
-        "y" : 1545.5160395733524
+        "x" : -914.333760286589,
+        "y" : 1543.9769770733524
       },
       "properties" : {
         "Row Identifier" : "ARCALEN|${created_at}|${eventid.0}",

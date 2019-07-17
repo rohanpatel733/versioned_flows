@@ -17,9 +17,9 @@ flows:
   3db45db8-50d6-4db5-802d-96dc4a8a5ba4: {ver: 4, file: TestBatchIngestionRDBMS.snapshot,
     comments: changed your changes danielgo, author: anonymous, created: 1563389471720,
     flowName: TestBatchIngestionRDBMS, flowDesc: ''}
-  38fa81c9-b902-48ec-ba88-359aaf87f569: {ver: 1, file: BatchIngestionRDBMS.snapshot,
-    comments: Initial commit, author: anonymous, created: 1563393600279, flowName: BatchIngestionRDBMS,
-    flowDesc: ''}
+  38fa81c9-b902-48ec-ba88-359aaf87f569: {ver: 2, file: BatchIngestionRDBMS.snapshot,
+    comments: clean version with no issues, author: anonymous, created: 1563397115683,
+    flowName: BatchIngestionRDBMS, flowDesc: ''}
   8ed5e0d7-926b-4091-ae21-2c87d57dee5d: {ver: 1, file: MonitoringPGTest.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393898239, flowName: MonitoringPGTest,
     flowDesc: ''}

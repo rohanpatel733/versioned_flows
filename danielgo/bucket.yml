@@ -1,4 +1,7 @@
 flows:
+  306dcc2a-459e-458e-9dd4-05ba903ed69d: {ver: 1, file: IntegrationTestGroup.snapshot,
+    comments: Initial commit, author: anonymous, created: 1563388467841, flowName: IntegrationTestGroup,
+    flowDesc: ''}
   61bd0372-62a4-461f-b0f5-fc6abadb66f4: {ver: 1, file: MonitoringPGTest.snapshot,
     comments: Initial commit, author: anonymous, created: 1563388449358, flowName: MonitoringPGTest,
     flowDesc: ''}

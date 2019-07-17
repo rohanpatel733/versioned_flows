@@ -1,0 +1,734 @@
+{
+  "header" : {
+    "dataModelVersion" : "2"
+  },
+  "content" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "000cc710-745f-3bb0-bc12-b8dd4afa61d6",
+        "name" : "EvaluateJsonPath",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+      "identifier" : "4054645b-c3b3-34c7-b458-6d9ad4451f88",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "43312765-4793-3fe5-87a0-51fa8c9aa11d",
+        "name" : "ConsumeKafka_2_0",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "c3af3a9b-d8b1-3db1-9cbc-d0ad85e3d99d",
+        "name" : "PutHDFS",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+      "identifier" : "fbdbc824-30bd-3919-89fb-a3b35efa7988",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "failure" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "000cc710-745f-3bb0-bc12-b8dd4afa61d6",
+        "name" : "EvaluateJsonPath",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "3ab04b54-abf5-3b85-80d1-83e750bdd471",
+        "name" : "FlattenJson",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+      "identifier" : "4450dd2f-4baf-33ea-a1d0-593672fca53c",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "matched" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "000cc710-745f-3bb0-bc12-b8dd4afa61d6",
+        "name" : "EvaluateJsonPath",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ {
+        "x" : 1141.0000344358398,
+        "y" : 1199.6813783060536
+      }, {
+        "x" : 1141.0000344358398,
+        "y" : 1249.6813783060536
+      } ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "3ab04b54-abf5-3b85-80d1-83e750bdd471",
+        "name" : "FlattenJson",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+      "identifier" : "f2242661-29af-3aa9-b118-238f73e65d0b",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "failure" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "3ab04b54-abf5-3b85-80d1-83e750bdd471",
+        "name" : "FlattenJson",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ {
+        "x" : 1131.5221070796763,
+        "y" : 1467.9797388310558
+      }, {
+        "x" : 1131.5221070796763,
+        "y" : 1517.9797388310558
+      } ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "84419569-2678-384b-a356-895bbec5a52a",
+        "name" : "PutHBaseJSON",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+      "identifier" : "fafbf0e8-3e3d-371e-9002-74f53b0728be",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "failure" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "84419569-2678-384b-a356-895bbec5a52a",
+        "name" : "PutHBaseJSON",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "84419569-2678-384b-a356-895bbec5a52a",
+        "name" : "PutHBaseJSON",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+      "identifier" : "c33e50e9-6739-36df-8bb3-1642e14c4317",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "3ab04b54-abf5-3b85-80d1-83e750bdd471",
+        "name" : "FlattenJson",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ {
+        "x" : 1975.0785279729807,
+        "y" : 1188.696900504725
+      }, {
+        "x" : 1975.0785279729807,
+        "y" : 1238.696900504725
+      } ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "c3af3a9b-d8b1-3db1-9cbc-d0ad85e3d99d",
+        "name" : "PutHDFS",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+      "identifier" : "bc7d4bd7-6ff2-37f5-a219-b68b433137d5",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "failure" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+        "id" : "c3af3a9b-d8b1-3db1-9cbc-d0ad85e3d99d",
+        "name" : "PutHDFS",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    } ],
+    "controllerServices" : [ ],
+    "funnels" : [ ],
+    "identifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "name" : "RecKafkaIngestion",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 2196.7745588819034,
+      "y" : 485.0671841117851
+    },
+    "processGroups" : [ ],
+    "processors" : [ {
+      "autoTerminatedRelationships" : [ "success" ],
+      "bulletinLevel" : "DEBUG",
+      "bundle" : {
+        "artifact" : "nifi-hbase-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0.3.4.0.0-155"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+      "identifier" : "84419569-2678-384b-a356-895bbec5a52a",
+      "name" : "PutHBaseJSON",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 668.5221070796763,
+        "y" : 1427.9797388310558
+      },
+      "properties" : {
+        "Row Identifier" : "kafka|${UUID()}",
+        "Table Name" : "rec_data_lake",
+        "Row Identifier Encoding Strategy" : "String",
+        "Complex Field Strategy" : "Text",
+        "Batch Size" : "1",
+        "Column Family" : "raw_columns",
+        "Field Encoding Strategy" : "String",
+        "HBase Client Service" : "0a65c34d-fe90-3a77-b421-dc0754235ade"
+      },
+      "propertyDescriptors" : {
+        "Row Identifier" : {
+          "displayName" : "Row Identifier",
+          "identifiesControllerService" : false,
+          "name" : "Row Identifier",
+          "sensitive" : false
+        },
+        "Table Name" : {
+          "displayName" : "Table Name",
+          "identifiesControllerService" : false,
+          "name" : "Table Name",
+          "sensitive" : false
+        },
+        "Row Identifier Encoding Strategy" : {
+          "displayName" : "Row Identifier Encoding Strategy",
+          "identifiesControllerService" : false,
+          "name" : "Row Identifier Encoding Strategy",
+          "sensitive" : false
+        },
+        "Row Identifier Field Name" : {
+          "displayName" : "Row Identifier Field Name",
+          "identifiesControllerService" : false,
+          "name" : "Row Identifier Field Name",
+          "sensitive" : false
+        },
+        "Complex Field Strategy" : {
+          "displayName" : "Complex Field Strategy",
+          "identifiesControllerService" : false,
+          "name" : "Complex Field Strategy",
+          "sensitive" : false
+        },
+        "Batch Size" : {
+          "displayName" : "Batch Size",
+          "identifiesControllerService" : false,
+          "name" : "Batch Size",
+          "sensitive" : false
+        },
+        "Column Family" : {
+          "displayName" : "Column Family",
+          "identifiesControllerService" : false,
+          "name" : "Column Family",
+          "sensitive" : false
+        },
+        "Field Encoding Strategy" : {
+          "displayName" : "Field Encoding Strategy",
+          "identifiesControllerService" : false,
+          "name" : "Field Encoding Strategy",
+          "sensitive" : false
+        },
+        "HBase Client Service" : {
+          "displayName" : "HBase Client Service",
+          "identifiesControllerService" : true,
+          "name" : "HBase Client Service",
+          "sensitive" : false
+        },
+        "timestamp" : {
+          "displayName" : "Timestamp",
+          "identifiesControllerService" : false,
+          "name" : "timestamp",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.hbase.PutHBaseJSON",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ "success" ],
+      "bulletinLevel" : "DEBUG",
+      "bundle" : {
+        "artifact" : "nifi-hadoop-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0.3.4.0.0-155"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+      "identifier" : "c3af3a9b-d8b1-3db1-9cbc-d0ad85e3d99d",
+      "name" : "PutHDFS",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 1512.0785279729805,
+        "y" : 1148.696900504725
+      },
+      "properties" : {
+        "Hadoop Configuration Resources" : "/usr/hdp/3.1.0.0-78/etc/hive/conf.dist/hive-site.xml,/etc/hadoop/3.1.0.0-78/0/core-site.xml,/etc/hadoop/3.1.0.0-78/0/hdfs-site.xml",
+        "Compression codec" : "NONE",
+        "Kerberos Relogin Period" : "4 hours",
+        "Directory" : "/data_lake/rec/error",
+        "Conflict Resolution Strategy" : "fail"
+      },
+      "propertyDescriptors" : {
+        "Permissions umask" : {
+          "displayName" : "Permissions umask",
+          "identifiesControllerService" : false,
+          "name" : "Permissions umask",
+          "sensitive" : false
+        },
+        "Hadoop Configuration Resources" : {
+          "displayName" : "Hadoop Configuration Resources",
+          "identifiesControllerService" : false,
+          "name" : "Hadoop Configuration Resources",
+          "sensitive" : false
+        },
+        "Remote Owner" : {
+          "displayName" : "Remote Owner",
+          "identifiesControllerService" : false,
+          "name" : "Remote Owner",
+          "sensitive" : false
+        },
+        "Additional Classpath Resources" : {
+          "displayName" : "Additional Classpath Resources",
+          "identifiesControllerService" : false,
+          "name" : "Additional Classpath Resources",
+          "sensitive" : false
+        },
+        "Compression codec" : {
+          "displayName" : "Compression codec",
+          "identifiesControllerService" : false,
+          "name" : "Compression codec",
+          "sensitive" : false
+        },
+        "IO Buffer Size" : {
+          "displayName" : "IO Buffer Size",
+          "identifiesControllerService" : false,
+          "name" : "IO Buffer Size",
+          "sensitive" : false
+        },
+        "Remote Group" : {
+          "displayName" : "Remote Group",
+          "identifiesControllerService" : false,
+          "name" : "Remote Group",
+          "sensitive" : false
+        },
+        "Block Size" : {
+          "displayName" : "Block Size",
+          "identifiesControllerService" : false,
+          "name" : "Block Size",
+          "sensitive" : false
+        },
+        "kerberos-credentials-service" : {
+          "displayName" : "Kerberos Credentials Service",
+          "identifiesControllerService" : true,
+          "name" : "kerberos-credentials-service",
+          "sensitive" : false
+        },
+        "Kerberos Keytab" : {
+          "displayName" : "Kerberos Keytab",
+          "identifiesControllerService" : false,
+          "name" : "Kerberos Keytab",
+          "sensitive" : false
+        },
+        "Kerberos Principal" : {
+          "displayName" : "Kerberos Principal",
+          "identifiesControllerService" : false,
+          "name" : "Kerberos Principal",
+          "sensitive" : false
+        },
+        "Replication" : {
+          "displayName" : "Replication",
+          "identifiesControllerService" : false,
+          "name" : "Replication",
+          "sensitive" : false
+        },
+        "Kerberos Relogin Period" : {
+          "displayName" : "Kerberos Relogin Period",
+          "identifiesControllerService" : false,
+          "name" : "Kerberos Relogin Period",
+          "sensitive" : false
+        },
+        "Directory" : {
+          "displayName" : "Directory",
+          "identifiesControllerService" : false,
+          "name" : "Directory",
+          "sensitive" : false
+        },
+        "Conflict Resolution Strategy" : {
+          "displayName" : "Conflict Resolution Strategy",
+          "identifiesControllerService" : false,
+          "name" : "Conflict Resolution Strategy",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.hadoop.PutHDFS",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-kafka-2-0-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0.3.4.0.0-155"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+      "identifier" : "43312765-4793-3fe5-87a0-51fa8c9aa11d",
+      "name" : "ConsumeKafka_2_0",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 1068.3386480603715,
+        "y" : 696.99999486412
+      },
+      "properties" : {
+        "max.poll.records" : "10000",
+        "group.id" : "rec-group",
+        "bootstrap.servers" : "dw-sb-31-mn04.mia.ucloud.int:6667,dw-sb-31-mn05.mia.ucloud.int:6667,dw-sb-31-mn06.mia.ucloud.int:6667",
+        "topic_type" : "names",
+        "security.protocol" : "PLAINTEXT",
+        "max-uncommit-offset-wait" : "1 secs",
+        "honor-transactions" : "true",
+        "Communications Timeout" : "60 secs",
+        "topic" : "rec.getAll",
+        "message-header-encoding" : "UTF-8",
+        "key-attribute-encoding" : "utf-8",
+        "auto.offset.reset" : "latest"
+      },
+      "propertyDescriptors" : {
+        "header-name-regex" : {
+          "displayName" : "Headers to Add as Attributes (Regex)",
+          "identifiesControllerService" : false,
+          "name" : "header-name-regex",
+          "sensitive" : false
+        },
+        "max.poll.records" : {
+          "displayName" : "Max Poll Records",
+          "identifiesControllerService" : false,
+          "name" : "max.poll.records",
+          "sensitive" : false
+        },
+        "group.id" : {
+          "displayName" : "Group ID",
+          "identifiesControllerService" : false,
+          "name" : "group.id",
+          "sensitive" : false
+        },
+        "bootstrap.servers" : {
+          "displayName" : "Kafka Brokers",
+          "identifiesControllerService" : false,
+          "name" : "bootstrap.servers",
+          "sensitive" : false
+        },
+        "topic_type" : {
+          "displayName" : "Topic Name Format",
+          "identifiesControllerService" : false,
+          "name" : "topic_type",
+          "sensitive" : false
+        },
+        "sasl.kerberos.principal" : {
+          "displayName" : "Kerberos Principal",
+          "identifiesControllerService" : false,
+          "name" : "sasl.kerberos.principal",
+          "sensitive" : false
+        },
+        "sasl.kerberos.service.name" : {
+          "displayName" : "Kerberos Service Name",
+          "identifiesControllerService" : false,
+          "name" : "sasl.kerberos.service.name",
+          "sensitive" : false
+        },
+        "security.protocol" : {
+          "displayName" : "Security Protocol",
+          "identifiesControllerService" : false,
+          "name" : "security.protocol",
+          "sensitive" : false
+        },
+        "kerberos-credentials-service" : {
+          "displayName" : "Kerberos Credentials Service",
+          "identifiesControllerService" : true,
+          "name" : "kerberos-credentials-service",
+          "sensitive" : false
+        },
+        "ssl.context.service" : {
+          "displayName" : "SSL Context Service",
+          "identifiesControllerService" : true,
+          "name" : "ssl.context.service",
+          "sensitive" : false
+        },
+        "max-uncommit-offset-wait" : {
+          "displayName" : "Max Uncommitted Time",
+          "identifiesControllerService" : false,
+          "name" : "max-uncommit-offset-wait",
+          "sensitive" : false
+        },
+        "sasl.kerberos.keytab" : {
+          "displayName" : "Kerberos Keytab",
+          "identifiesControllerService" : false,
+          "name" : "sasl.kerberos.keytab",
+          "sensitive" : false
+        },
+        "honor-transactions" : {
+          "displayName" : "Honor Transactions",
+          "identifiesControllerService" : false,
+          "name" : "honor-transactions",
+          "sensitive" : false
+        },
+        "Communications Timeout" : {
+          "displayName" : "Communications Timeout",
+          "identifiesControllerService" : false,
+          "name" : "Communications Timeout",
+          "sensitive" : false
+        },
+        "topic" : {
+          "displayName" : "Topic Name(s)",
+          "identifiesControllerService" : false,
+          "name" : "topic",
+          "sensitive" : false
+        },
+        "message-header-encoding" : {
+          "displayName" : "Message Header Encoding",
+          "identifiesControllerService" : false,
+          "name" : "message-header-encoding",
+          "sensitive" : false
+        },
+        "message-demarcator" : {
+          "displayName" : "Message Demarcator",
+          "identifiesControllerService" : false,
+          "name" : "message-demarcator",
+          "sensitive" : false
+        },
+        "key-attribute-encoding" : {
+          "displayName" : "Key Attribute Encoding",
+          "identifiesControllerService" : false,
+          "name" : "key-attribute-encoding",
+          "sensitive" : false
+        },
+        "auto.offset.reset" : {
+          "displayName" : "Offset Reset",
+          "identifiesControllerService" : false,
+          "name" : "auto.offset.reset",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.kafka.pubsub.ConsumeKafka_2_0",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ "unmatched" ],
+      "bulletinLevel" : "DEBUG",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0.3.4.0.0-155"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+      "identifier" : "000cc710-745f-3bb0-bc12-b8dd4afa61d6",
+      "name" : "EvaluateJsonPath",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 1068.5916277173435,
+        "y" : 922.5837252477761
+      },
+      "properties" : {
+        "Destination" : "flowfile-attribute",
+        "Return Type" : "auto-detect",
+        "Null Value Representation" : "empty string",
+        "Path Not Found Behavior" : "warn"
+      },
+      "propertyDescriptors" : {
+        "Destination" : {
+          "displayName" : "Destination",
+          "identifiesControllerService" : false,
+          "name" : "Destination",
+          "sensitive" : false
+        },
+        "Return Type" : {
+          "displayName" : "Return Type",
+          "identifiesControllerService" : false,
+          "name" : "Return Type",
+          "sensitive" : false
+        },
+        "Null Value Representation" : {
+          "displayName" : "Null Value Representation",
+          "identifiesControllerService" : false,
+          "name" : "Null Value Representation",
+          "sensitive" : false
+        },
+        "Path Not Found Behavior" : {
+          "displayName" : "Path Not Found Behavior",
+          "identifiesControllerService" : false,
+          "name" : "Path Not Found Behavior",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.EvaluateJsonPath",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0.3.4.0.0-155"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "676bb305-f7d9-3d80-9749-6610a5c04dba",
+      "identifier" : "3ab04b54-abf5-3b85-80d1-83e750bdd471",
+      "name" : "FlattenJson",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 678.0000344358398,
+        "y" : 1159.6813783060536
+      },
+      "properties" : {
+        "flatten-mode" : "keep arrays",
+        "flatten-json-separator" : "_"
+      },
+      "propertyDescriptors" : {
+        "flatten-mode" : {
+          "displayName" : "Flatten Mode",
+          "identifiesControllerService" : false,
+          "name" : "flatten-mode",
+          "sensitive" : false
+        },
+        "flatten-json-separator" : {
+          "displayName" : "Separator",
+          "identifiesControllerService" : false,
+          "name" : "flatten-json-separator",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.FlattenJson",
+      "yieldDuration" : "1 sec"
+    } ],
+    "remoteProcessGroups" : [ ],
+    "variables" : { }
+  }
+}

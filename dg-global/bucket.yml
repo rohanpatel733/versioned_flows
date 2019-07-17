@@ -14,5 +14,8 @@ flows:
   5519e132-faef-44db-a207-3d9d62a09797: {ver: 1, file: testbatchingestionrdbms.snapshot,
     comments: initial commit, author: anonymous, created: 1563387078735, flowName: testbatchingestionrdbms,
     flowDesc: test flow for vcs}
+  99b70589-d6b5-4cbf-815f-bbc8ff198c62: {ver: 1, file: RecKafkaIngestion.snapshot,
+    comments: Initial commit, author: anonymous, created: 1563393572562, flowName: RecKafkaIngestion,
+    flowDesc: ''}
 layoutVer: 1
 bucketId: 43324b63-837b-4a82-8458-5e7b3625cd45

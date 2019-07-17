@@ -1,0 +1,6 @@
+flows:
+  b4bc517b-b2c2-48c9-b257-e1215e50d52e: {ver: 1, file: testbatchingestionrdbms.snapshot,
+    comments: initial commit, author: anonymous, created: 1563386915573, flowName: testbatchingestionrdbms,
+    flowDesc: test flow for version control}
+layoutVer: 1
+bucketId: 397e2075-1765-4b92-bbd6-d07c85727754

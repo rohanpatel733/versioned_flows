@@ -1,7 +1,4 @@
 flows:
-  a2453571-67bc-4cc1-9f47-0f1326087ec5: {ver: 1, file: RecKafkaIngestion.snapshot,
-    comments: Initial commit, author: anonymous, created: 1563388268965, flowName: RecKafkaIngestion,
-    flowDesc: ''}
   90131b61-48bd-4223-a0ad-ee06de058101: {ver: 1, file: WFMKafkaIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563388213179, flowName: WFMKafkaIngestion,
     flowDesc: ''}

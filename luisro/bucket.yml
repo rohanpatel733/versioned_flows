@@ -8,6 +8,9 @@ flows:
   a726ccca-c8a7-4365-9d3e-01f5048fc47b: {ver: 1, file: RabbitMQIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563388243638, flowName: RabbitMQIngestion,
     flowDesc: ''}
+  2a6f075e-14c9-4ee4-9aa0-b6b4be769811: {ver: 1, file: StreamingIngestion.snapshot,
+    comments: Initial commit, author: anonymous, created: 1563388281139, flowName: StreamingIngestion,
+    flowDesc: ''}
   918ac146-15d9-4a00-b555-689573c46efc: {ver: 1, file: BathIngestionMongoDB.snapshot,
     comments: Initial commit, author: anonymous, created: 1563388194449, flowName: BathIngestionMongoDB,
     flowDesc: ''}

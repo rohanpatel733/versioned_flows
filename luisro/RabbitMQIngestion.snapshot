@@ -291,11 +291,11 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : -461.89207567604717,
-        "y" : 1373.552447474567
+        "x" : -449.7657939377659,
+        "y" : 1372.0367004042546
       }, {
-        "x" : -461.89207567604717,
-        "y" : 1423.552447474567
+        "x" : -449.7657939377659,
+        "y" : 1422.0367004042546
       } ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -560,8 +560,8 @@
       "name" : "FlattenJson",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -924.8920756760472,
-        "y" : 1333.552447474567
+        "x" : -912.7657939377659,
+        "y" : 1332.0367004042546
       },
       "properties" : {
         "flatten-mode" : "keep arrays",
@@ -1014,8 +1014,8 @@
       "name" : "PutHBaseJSON",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -918.8577471029953,
-        "y" : 1548.5475337139774
+        "x" : -912.7946367514328,
+        "y" : 1545.5160395733524
       },
       "properties" : {
         "Row Identifier" : "ARCALEN|${created_at}|${eventid.0}",

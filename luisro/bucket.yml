@@ -5,9 +5,9 @@ flows:
   90131b61-48bd-4223-a0ad-ee06de058101: {ver: 1, file: WFMKafkaIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563388213179, flowName: WFMKafkaIngestion,
     flowDesc: ''}
-  a726ccca-c8a7-4365-9d3e-01f5048fc47b: {ver: 2, file: RabbitMQIngestion.snapshot,
-    comments: Added tenant and created_at timestamp to the HBase rowId, author: anonymous,
-    created: 1563391763310, flowName: RabbitMQIngestion, flowDesc: ''}
+  a726ccca-c8a7-4365-9d3e-01f5048fc47b: {ver: 3, file: RabbitMQIngestion.snapshot,
+    comments: Commit after changes in permissions to allow execution of external processes,
+    author: anonymous, created: 1563392026734, flowName: RabbitMQIngestion, flowDesc: ''}
   2a6f075e-14c9-4ee4-9aa0-b6b4be769811: {ver: 1, file: StreamingIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563388281139, flowName: StreamingIngestion,
     flowDesc: ''}

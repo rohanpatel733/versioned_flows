@@ -14,8 +14,8 @@ flows:
   1b2a5bc2-26b1-4828-98c3-39d6be34def6: {ver: 1, file: BatchIngestionMongoDB.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393431331, flowName: BatchIngestionMongoDB,
     flowDesc: ''}
-  3db45db8-50d6-4db5-802d-96dc4a8a5ba4: {ver: 6, file: TestBatchIngestionRDBMS.snapshot,
-    comments: Changed processor name for testing purposes, author: anonymous, created: 1563473207845,
+  3db45db8-50d6-4db5-802d-96dc4a8a5ba4: {ver: 7, file: TestBatchIngestionRDBMS.snapshot,
+    comments: Changed the name of a proccesor, author: anonymous, created: 1563477853199,
     flowName: TestBatchIngestionRDBMS, flowDesc: ''}
   38fa81c9-b902-48ec-ba88-359aaf87f569: {ver: 2, file: BatchIngestionRDBMS.snapshot,
     comments: clean version with no issues, author: anonymous, created: 1563397115683,

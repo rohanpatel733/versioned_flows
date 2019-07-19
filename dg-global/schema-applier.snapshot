@@ -44,42 +44,6 @@
     }, {
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
-      "bends" : [ {
-        "x" : 788.6191843888289,
-        "y" : 603.2525037118036
-      }, {
-        "x" : 788.6191843888289,
-        "y" : 653.2525037118036
-      } ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "1215c059-559f-343d-a936-3750bd1e8278",
-        "id" : "210f474e-db57-3e8b-a4c9-534fd7901dcd",
-        "name" : "PutHiveQL",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "1215c059-559f-343d-a936-3750bd1e8278",
-      "identifier" : "febf6a4b-63e7-31c9-93ea-42fc29ec854d",
-      "labelIndex" : 1,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "retry" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "1215c059-559f-343d-a936-3750bd1e8278",
-        "id" : "210f474e-db57-3e8b-a4c9-534fd7901dcd",
-        "name" : "PutHiveQL",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
       "bends" : [ ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -248,8 +212,8 @@
     "name" : "schema-applier",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 2196.997958592916,
-      "y" : 689.6923746319985
+      "x" : 2251.2918370133693,
+      "y" : 474.1268306212752
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -386,8 +350,8 @@
       "type" : "org.apache.nifi.processors.standard.ExecuteProcess",
       "yieldDuration" : "1 sec"
     }, {
-      "autoTerminatedRelationships" : [ "success", "failure" ],
-      "bulletinLevel" : "WARN",
+      "autoTerminatedRelationships" : [ "success", "failure", "retry" ],
+      "bulletinLevel" : "DEBUG",
       "bundle" : {
         "artifact" : "nifi-hive-nar",
         "group" : "org.apache.nifi",

@@ -220,8 +220,8 @@
     "name" : "IntegrationTestGroup",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 2606.7398697341414,
-      "y" : 484.80458725734434
+      "x" : 2370.296929903433,
+      "y" : 472.113221007774
     },
     "processGroups" : [ {
       "comments" : "",
@@ -820,8 +820,8 @@
           "type" : "OUTPUT_PORT"
         } ],
         "position" : {
-          "x" : -129.93153191385272,
-          "y" : 332.72379111603686
+          "x" : -129.96717644510272,
+          "y" : 331.70715903595874
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -1122,7 +1122,7 @@
         "penaltyDuration" : "30 sec",
         "position" : {
           "x" : -292.68527780118745,
-          "y" : 721.5419850693613
+          "y" : 722.5942311631113
         },
         "properties" : {
           "counter-name" : "test_output_failed",

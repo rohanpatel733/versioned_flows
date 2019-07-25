@@ -33,8 +33,9 @@ flows:
   99b70589-d6b5-4cbf-815f-bbc8ff198c62: {ver: 1, file: RecKafkaIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393572562, flowName: RecKafkaIngestion,
     flowDesc: ''}
-  8c9c2640-1259-4abf-b724-208ffde1245e: {ver: 2, file: WriteSQLServer.snapshot, comments: Changes
-      commited, author: anonymous, created: 1564061102464, flowName: WriteSQLServer,
-    flowDesc: This flow is to ETL data from Hive to SQL Server}
+  8c9c2640-1259-4abf-b724-208ffde1245e: {ver: 3, file: WriteSQLServer.snapshot, comments: Merge
+      to implement SCD Type 2 added to the flow, author: anonymous, created: 1564078049030,
+    flowName: WriteSQLServer, flowDesc: This flow is to ETL data from Hive to SQL
+      Server}
 layoutVer: 1
 bucketId: 43324b63-837b-4a82-8458-5e7b3625cd45

@@ -22,7 +22,7 @@
         },
         "type" : "org.apache.nifi.dbcp.DBCPService"
       } ],
-      "groupIdentifier" : "5a62dcea-b5e4-301a-aaf3-e1d0ed17ff9a",
+      "groupIdentifier" : "294b0acb-fdaa-3cc1-869a-a67a1807b4ef",
       "identifier" : "fa83cca6-066a-3f4f-b638-5d5cbbfde307",
       "name" : "DBCPConnectionPool_MariaDB_WFM",
       "properties" : {
@@ -148,7 +148,7 @@
         },
         "type" : "org.apache.nifi.hbase.HBaseClientService"
       } ],
-      "groupIdentifier" : "5a62dcea-b5e4-301a-aaf3-e1d0ed17ff9a",
+      "groupIdentifier" : "294b0acb-fdaa-3cc1-869a-a67a1807b4ef",
       "identifier" : "f40e7224-6c75-336a-83ca-1da25ab21c63",
       "name" : "HBase_2_ClientService",
       "properties" : {
@@ -214,14 +214,14 @@
       "type" : "org.apache.nifi.hbase.HBase_2_ClientService"
     } ],
     "funnels" : [ ],
-    "identifier" : "5a62dcea-b5e4-301a-aaf3-e1d0ed17ff9a",
+    "identifier" : "294b0acb-fdaa-3cc1-869a-a67a1807b4ef",
     "inputPorts" : [ ],
     "labels" : [ ],
     "name" : "IntegrationTestGroup",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 2370.296929903433,
-      "y" : 472.113221007774
+      "x" : -57.71023166543341,
+      "y" : 2531.0692778318544
     },
     "processGroups" : [ {
       "comments" : "",
@@ -349,7 +349,7 @@
       } ],
       "controllerServices" : [ ],
       "funnels" : [ ],
-      "groupIdentifier" : "5a62dcea-b5e4-301a-aaf3-e1d0ed17ff9a",
+      "groupIdentifier" : "294b0acb-fdaa-3cc1-869a-a67a1807b4ef",
       "identifier" : "e7cd09d3-9962-39ec-bb61-0a36250dc450",
       "inputPorts" : [ {
         "comments" : "",
@@ -392,8 +392,8 @@
         "type" : "OUTPUT_PORT"
       } ],
       "position" : {
-        "x" : -306.0,
-        "y" : 220.00000762939453
+        "x" : 58.0,
+        "y" : -129.74999237060547
       },
       "processGroups" : [ ],
       "processors" : [ {
@@ -641,15 +641,15 @@
       } ],
       "controllerServices" : [ ],
       "funnels" : [ ],
-      "groupIdentifier" : "5a62dcea-b5e4-301a-aaf3-e1d0ed17ff9a",
+      "groupIdentifier" : "294b0acb-fdaa-3cc1-869a-a67a1807b4ef",
       "identifier" : "d2b6f5ec-8ec6-3f45-a5c6-2a11f90b78b7",
       "inputPorts" : [ ],
       "labels" : [ ],
       "name" : "TestCase1",
       "outputPorts" : [ ],
       "position" : {
-        "x" : 77.0,
-        "y" : -128.99999237060547
+        "x" : -750.0,
+        "y" : -129.74999237060547
       },
       "processGroups" : [ {
         "comments" : "",
@@ -1283,15 +1283,15 @@
       } ],
       "controllerServices" : [ ],
       "funnels" : [ ],
-      "groupIdentifier" : "5a62dcea-b5e4-301a-aaf3-e1d0ed17ff9a",
+      "groupIdentifier" : "294b0acb-fdaa-3cc1-869a-a67a1807b4ef",
       "identifier" : "9e882dc4-61a2-3c64-b7eb-d386cd02ab22",
       "inputPorts" : [ ],
       "labels" : [ ],
       "name" : "TestCase2",
       "outputPorts" : [ ],
       "position" : {
-        "x" : -437.0,
-        "y" : -123.99999237060547
+        "x" : -346.0,
+        "y" : -129.74999237060547
       },
       "processGroups" : [ {
         "comments" : "",
@@ -1587,7 +1587,7 @@
         "variables" : { }
       } ],
       "processors" : [ {
-        "autoTerminatedRelationships" : [ ],
+        "autoTerminatedRelationships" : [ "success" ],
         "bulletinLevel" : "WARN",
         "bundle" : {
           "artifact" : "nifi-standard-nar",
@@ -1599,15 +1599,15 @@
         "concurrentlySchedulableTaskCount" : 1,
         "executionNode" : "ALL",
         "groupIdentifier" : "9e882dc4-61a2-3c64-b7eb-d386cd02ab22",
-        "identifier" : "bffc14b8-2fd2-3b0a-b2e8-983399883b7a",
+        "identifier" : "ca7b8354-3556-31fb-a655-06648404d8b6",
         "name" : "UpdateCounter",
         "penaltyDuration" : "30 sec",
         "position" : {
-          "x" : 27.590349335043015,
-          "y" : 94.09555867775975
+          "x" : -292.68527780118745,
+          "y" : 721.5419850693613
         },
         "properties" : {
-          "counter-name" : "test_input",
+          "counter-name" : "test_output_failed",
           "delta" : "1"
         },
         "propertyDescriptors" : {
@@ -1631,7 +1631,7 @@
         "type" : "org.apache.nifi.processors.standard.UpdateCounter",
         "yieldDuration" : "1 sec"
       }, {
-        "autoTerminatedRelationships" : [ "success" ],
+        "autoTerminatedRelationships" : [ ],
         "bulletinLevel" : "WARN",
         "bundle" : {
           "artifact" : "nifi-standard-nar",
@@ -1643,15 +1643,15 @@
         "concurrentlySchedulableTaskCount" : 1,
         "executionNode" : "ALL",
         "groupIdentifier" : "9e882dc4-61a2-3c64-b7eb-d386cd02ab22",
-        "identifier" : "ca7b8354-3556-31fb-a655-06648404d8b6",
+        "identifier" : "bffc14b8-2fd2-3b0a-b2e8-983399883b7a",
         "name" : "UpdateCounter",
         "penaltyDuration" : "30 sec",
         "position" : {
-          "x" : -292.68527780118745,
-          "y" : 721.5419850693613
+          "x" : 27.590349335043015,
+          "y" : 94.09555867775975
         },
         "properties" : {
-          "counter-name" : "test_output_failed",
+          "counter-name" : "test_input",
           "delta" : "1"
         },
         "propertyDescriptors" : {

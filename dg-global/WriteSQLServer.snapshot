@@ -9,11 +9,11 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : 1895.6777259255446,
-        "y" : -90.13147826408328
+        "x" : 1831.215445652107,
+        "y" : -113.15376372550907
       }, {
-        "x" : 1895.6777259255446,
-        "y" : -40.131478264083285
+        "x" : 1831.215445652107,
+        "y" : -63.153763725509066
       } ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -806,7 +806,7 @@
     "outputPorts" : [ ],
     "position" : {
       "x" : 2652.959402154218,
-      "y" : 479.38688184460307
+      "y" : 478.38688184460307
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -1061,8 +1061,8 @@
       "name" : "ExecuteSQL",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 1432.6777259255446,
-        "y" : -130.13147826408328
+        "x" : 1368.215445652107,
+        "y" : -153.15376372550907
       },
       "properties" : {
         "esql-max-rows" : "0",

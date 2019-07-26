@@ -6,8 +6,6 @@ flows:
   15dc470e-7969-4d4c-98d8-52bf2064287d: {ver: 1, file: WFMKafkaIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393492641, flowName: WFMKafkaIngestion,
     flowDesc: ''}
-  27907653-6692-4c22-ba70-2603d98a27b7: {ver: 1, file: TestTest.snapshot, comments: asdfasdf,
-    author: rohanp, created: 1564156293070, flowName: TestTest, flowDesc: asdfasdf}
   8ed5e0d7-926b-4091-ae21-2c87d57dee5d: {ver: 1, file: MonitoringPGTest.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393898239, flowName: MonitoringPGTest,
     flowDesc: ''}

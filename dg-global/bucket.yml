@@ -23,6 +23,9 @@ flows:
     author: admin, created: 1564150582618, flowName: Test2, flowDesc: ''}
   6e236f17-2d62-4c52-912f-944cfeb83809: {ver: 1, file: Test.snapshot, comments: Test,
     author: admin, created: 1564150964358, flowName: Test, flowDesc: ''}
+  f1e39e04-af1d-4f02-b3b5-25d0ccb6fa48: {ver: 1, file: TestFlow.snapshot, comments: initial
+      comm, author: admin, created: 1564154706430, flowName: TestFlow, flowDesc: This
+      is a test}
   5bbcd282-e1a3-4db4-bf74-6917a5844bb5: {ver: 2, file: schema-applier.snapshot, comments: Updated
       to use the new class, author: anonymous, created: 1563545165947, flowName: schema-applier,
     flowDesc: ''}

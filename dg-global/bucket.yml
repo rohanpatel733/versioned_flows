@@ -3,14 +3,26 @@ flows:
     comments: Replacing the implemented REST call with the InvokeHTTP processor and
       clean up, author: anonymous, created: 1564004066858, flowName: RabbitMQIngestion,
     flowDesc: ''}
+  15dc470e-7969-4d4c-98d8-52bf2064287d: {ver: 1, file: WFMKafkaIngestion.snapshot,
+    comments: Initial commit, author: anonymous, created: 1563393492641, flowName: WFMKafkaIngestion,
+    flowDesc: ''}
+  8ed5e0d7-926b-4091-ae21-2c87d57dee5d: {ver: 1, file: MonitoringPGTest.snapshot,
+    comments: Initial commit, author: anonymous, created: 1563393898239, flowName: MonitoringPGTest,
+    flowDesc: ''}
+  5b2f8dc1-529b-4a46-ab50-9e1430c7f79c: {ver: 1, file: StreamingIngestion.snapshot,
+    comments: Initial commit, author: anonymous, created: 1563393520989, flowName: StreamingIngestion,
+    flowDesc: ''}
+  8c9c2640-1259-4abf-b724-208ffde1245e: {ver: 3, file: WriteSQLServer.snapshot, comments: Merge
+      to implement SCD Type 2 added to the flow, author: anonymous, created: 1564078049030,
+    flowName: WriteSQLServer, flowDesc: This flow is to ETL data from Hive to SQL
+      Server}
   0cc9e96a-3e9c-4d66-b940-993f820a99d7: {ver: 1, file: TestBatchIngestionRDBMS.snapshot,
     comments: Initial commit, author: rohanp, created: 1564150420361, flowName: TestBatchIngestionRDBMS,
     flowDesc: ''}
   46463fc8-6d71-4b29-aea7-69a10176d7e4: {ver: 1, file: Test2.snapshot, comments: fasdf,
     author: admin, created: 1564150582618, flowName: Test2, flowDesc: ''}
-  15dc470e-7969-4d4c-98d8-52bf2064287d: {ver: 1, file: WFMKafkaIngestion.snapshot,
-    comments: Initial commit, author: anonymous, created: 1563393492641, flowName: WFMKafkaIngestion,
-    flowDesc: ''}
+  6e236f17-2d62-4c52-912f-944cfeb83809: {ver: 1, file: Test.snapshot, comments: Test,
+    author: admin, created: 1564150964358, flowName: Test, flowDesc: ''}
   5bbcd282-e1a3-4db4-bf74-6917a5844bb5: {ver: 2, file: schema-applier.snapshot, comments: Updated
       to use the new class, author: anonymous, created: 1563545165947, flowName: schema-applier,
     flowDesc: ''}
@@ -23,21 +35,11 @@ flows:
   38fa81c9-b902-48ec-ba88-359aaf87f569: {ver: 2, file: BatchIngestionRDBMS.snapshot,
     comments: clean version with no issues, author: anonymous, created: 1563397115683,
     flowName: BatchIngestionRDBMS, flowDesc: ''}
-  8ed5e0d7-926b-4091-ae21-2c87d57dee5d: {ver: 1, file: MonitoringPGTest.snapshot,
-    comments: Initial commit, author: anonymous, created: 1563393898239, flowName: MonitoringPGTest,
-    flowDesc: ''}
-  5b2f8dc1-529b-4a46-ab50-9e1430c7f79c: {ver: 1, file: StreamingIngestion.snapshot,
-    comments: Initial commit, author: anonymous, created: 1563393520989, flowName: StreamingIngestion,
-    flowDesc: ''}
   5519e132-faef-44db-a207-3d9d62a09797: {ver: 1, file: testbatchingestionrdbms.snapshot,
     comments: initial commit, author: anonymous, created: 1563387078735, flowName: testbatchingestionrdbms,
     flowDesc: test flow for vcs}
   99b70589-d6b5-4cbf-815f-bbc8ff198c62: {ver: 1, file: RecKafkaIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393572562, flowName: RecKafkaIngestion,
     flowDesc: ''}
-  8c9c2640-1259-4abf-b724-208ffde1245e: {ver: 3, file: WriteSQLServer.snapshot, comments: Merge
-      to implement SCD Type 2 added to the flow, author: anonymous, created: 1564078049030,
-    flowName: WriteSQLServer, flowDesc: This flow is to ETL data from Hive to SQL
-      Server}
 layoutVer: 1
 bucketId: 43324b63-837b-4a82-8458-5e7b3625cd45

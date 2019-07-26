@@ -1,7 +1,4 @@
 flows:
-  0cc9e96a-3e9c-4d66-b940-993f820a99d7: {ver: 1, file: TestBatchIngestionRDBMS.snapshot,
-    comments: Initial commit, author: rohanp, created: 1564150420361, flowName: TestBatchIngestionRDBMS,
-    flowDesc: ''}
   c5c53436-1daa-4c96-9a3a-b2dbd9a91bf4: {ver: 4, file: RabbitMQIngestion.snapshot,
     comments: Replacing the implemented REST call with the InvokeHTTP processor and
       clean up, author: anonymous, created: 1564004066858, flowName: RabbitMQIngestion,

@@ -15,9 +15,6 @@ flows:
   5bbcd282-e1a3-4db4-bf74-6917a5844bb5: {ver: 2, file: schema-applier.snapshot, comments: Updated
       to use the new class, author: anonymous, created: 1563545165947, flowName: schema-applier,
     flowDesc: ''}
-  9c4bb243-4f09-401b-96d0-dde236c23601: {ver: 3, file: IntegrationTestGroup.snapshot,
-    comments: Cleaned up process group positions, author: anonymous, created: 1564055719231,
-    flowName: IntegrationTestGroup, flowDesc: ''}
   1b2a5bc2-26b1-4828-98c3-39d6be34def6: {ver: 1, file: BatchIngestionMongoDB.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393431331, flowName: BatchIngestionMongoDB,
     flowDesc: ''}

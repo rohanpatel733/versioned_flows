@@ -1,7 +1,4 @@
 flows:
-  c5c53436-1daa-4c96-9a3a-b2dbd9a91bf4: {ver: 5, file: RabbitMQIngestion.snapshot,
-    comments: '', author: luisro, created: 1564412030435, flowName: RabbitMQIngestion,
-    flowDesc: ''}
   fe2813d5-9adc-4f14-b289-4a74dbae62a1: {ver: 1, file: MonitoringPGTest.snapshot,
     comments: Initial commit, author: danielgo, created: 1564411622523, flowName: MonitoringPGTest,
     flowDesc: ''}

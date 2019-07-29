@@ -21,9 +21,6 @@ flows:
   0ca1e024-7860-41aa-b12c-fff750130c43: {ver: 1, file: IntegrationTestGroup.snapshot,
     comments: Initial commit, author: danielgo, created: 1564411661372, flowName: IntegrationTestGroup,
     flowDesc: ''}
-  38fa81c9-b902-48ec-ba88-359aaf87f569: {ver: 2, file: BatchIngestionRDBMS.snapshot,
-    comments: clean version with no issues, author: anonymous, created: 1563397115683,
-    flowName: BatchIngestionRDBMS, flowDesc: ''}
   5b2f8dc1-529b-4a46-ab50-9e1430c7f79c: {ver: 1, file: StreamingIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393520989, flowName: StreamingIngestion,
     flowDesc: ''}

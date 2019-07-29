@@ -99,10 +99,10 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : 1042.990873658246,
+        "x" : 1044.127172635487,
         "y" : 380.1509035456801
       }, {
-        "x" : 1042.990873658246,
+        "x" : 1044.127172635487,
         "y" : 430.1509035456801
       } ],
       "componentType" : "CONNECTION",
@@ -157,7 +157,7 @@
         "comments" : "",
         "groupId" : "0844f0d1-b511-30f8-ba9d-46af3b7f152e",
         "id" : "8812b830-f37b-30aa-86ce-bc1eaef1f86b",
-        "name" : "ListDatabaseTables66",
+        "name" : "ListDatabaseTables",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -165,10 +165,10 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : 1039.893718788298,
+        "x" : 1044.127172635487,
         "y" : 171.42419293641865
       }, {
-        "x" : 1039.893718788298,
+        "x" : 1044.127172635487,
         "y" : 221.42419293641865
       } ],
       "componentType" : "CONNECTION",
@@ -201,10 +201,10 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : 1035.9506958903169,
+        "x" : 1044.127172635487,
         "y" : 786.4164215195574
       }, {
-        "x" : 1035.9506958903169,
+        "x" : 1044.127172635487,
         "y" : 836.4164215195574
       } ],
       "componentType" : "CONNECTION",
@@ -237,10 +237,10 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : 1045.6800652915888,
+        "x" : 1044.127172635487,
         "y" : 1000.3056315549279
       }, {
-        "x" : 1045.6800652915888,
+        "x" : 1044.127172635487,
         "y" : 1050.305631554928
       } ],
       "componentType" : "CONNECTION",
@@ -273,10 +273,10 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : 1052.7464899077045,
+        "x" : 1044.1271726354873,
         "y" : 585.0382715707409
       }, {
-        "x" : 1052.7464899077045,
+        "x" : 1044.1271726354873,
         "y" : 635.0382715707409
       } ],
       "componentType" : "CONNECTION",
@@ -903,7 +903,7 @@
       "name" : "PutHBaseJSON",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 582.6800652915888,
+        "x" : 581.1271726354872,
         "y" : 960.3056315549279
       },
       "properties" : {
@@ -1001,7 +1001,7 @@
       "name" : "ExecuteSQLTest",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 579.9908736582462,
+        "x" : 581.1271726354872,
         "y" : 340.1509035456801
       },
       "properties" : {
@@ -1112,7 +1112,7 @@
       "name" : "ConvertAvroToJSON",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 589.7464899077044,
+        "x" : 581.1271726354872,
         "y" : 545.0382715707409
       },
       "properties" : {
@@ -1162,7 +1162,7 @@
       "name" : "GenerateTableFetch",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 576.8937187882981,
+        "x" : 581.1271726354872,
         "y" : 131.4241929364187
       },
       "properties" : {
@@ -1255,10 +1255,10 @@
       "executionNode" : "PRIMARY",
       "groupIdentifier" : "0844f0d1-b511-30f8-ba9d-46af3b7f152e",
       "identifier" : "8812b830-f37b-30aa-86ce-bc1eaef1f86b",
-      "name" : "ListDatabaseTables66",
+      "name" : "ListDatabaseTables",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 572.5078553632701,
+        "x" : 581.1271726354872,
         "y" : -73.41825055386425
       },
       "properties" : {
@@ -1335,7 +1335,7 @@
       "name" : "SplitText",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 572.9506958903169,
+        "x" : 581.1271726354872,
         "y" : 746.4164215195574
       },
       "properties" : {

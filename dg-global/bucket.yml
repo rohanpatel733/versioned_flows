@@ -2,9 +2,9 @@ flows:
   fe2813d5-9adc-4f14-b289-4a74dbae62a1: {ver: 1, file: MonitoringPGTest.snapshot,
     comments: Initial commit, author: danielgo, created: 1564411622523, flowName: MonitoringPGTest,
     flowDesc: ''}
-  47c9813b-54da-4059-9d31-7cffaa1dcc84: {ver: 2, file: TestBatchIngestionRDBMS.snapshot,
-    comments: Changed positions of processors to clean up flow. Changed name of processor.,
-    author: rohanp, created: 1564421087599, flowName: TestBatchIngestionRDBMS, flowDesc: ''}
+  47c9813b-54da-4059-9d31-7cffaa1dcc84: {ver: 3, file: TestBatchIngestionRDBMS.snapshot,
+    comments: Changed the name of a processor, author: rohanp, created: 1564421880632,
+    flowName: TestBatchIngestionRDBMS, flowDesc: ''}
   821da22e-93ff-4df7-8a09-cbb955ca3c22: {ver: 1, file: BatchIngestionMongoDB.snapshot,
     comments: Initial commit, author: luisro, created: 1564411791132, flowName: BatchIngestionMongoDB,
     flowDesc: ''}

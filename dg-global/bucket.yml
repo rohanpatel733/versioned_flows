@@ -15,9 +15,6 @@ flows:
   15dc470e-7969-4d4c-98d8-52bf2064287d: {ver: 1, file: WFMKafkaIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393492641, flowName: WFMKafkaIngestion,
     flowDesc: ''}
-  5bbcd282-e1a3-4db4-bf74-6917a5844bb5: {ver: 2, file: schema-applier.snapshot, comments: Updated
-      to use the new class, author: anonymous, created: 1563545165947, flowName: schema-applier,
-    flowDesc: ''}
   0ca1e024-7860-41aa-b12c-fff750130c43: {ver: 1, file: IntegrationTestGroup.snapshot,
     comments: Initial commit, author: danielgo, created: 1564411661372, flowName: IntegrationTestGroup,
     flowDesc: ''}

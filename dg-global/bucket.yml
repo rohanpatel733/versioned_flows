@@ -15,6 +15,9 @@ flows:
   15dc470e-7969-4d4c-98d8-52bf2064287d: {ver: 1, file: WFMKafkaIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393492641, flowName: WFMKafkaIngestion,
     flowDesc: ''}
+  49692811-6387-4d06-9e36-25ef5038c8a3: {ver: 1, file: RecKafkaIngestion.snapshot,
+    comments: Initial commit, author: luisro, created: 1564411970502, flowName: RecKafkaIngestion,
+    flowDesc: ''}
   0ca1e024-7860-41aa-b12c-fff750130c43: {ver: 1, file: IntegrationTestGroup.snapshot,
     comments: Initial commit, author: danielgo, created: 1564411661372, flowName: IntegrationTestGroup,
     flowDesc: ''}

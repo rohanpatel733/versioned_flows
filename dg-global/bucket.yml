@@ -27,6 +27,9 @@ flows:
   99b70589-d6b5-4cbf-815f-bbc8ff198c62: {ver: 1, file: RecKafkaIngestion.snapshot,
     comments: Initial commit, author: anonymous, created: 1563393572562, flowName: RecKafkaIngestion,
     flowDesc: ''}
+  e46e0bd1-1757-4c4c-861d-0d0d86332bc3: {ver: 1, file: StreamingIngestion.snapshot,
+    comments: Initial commit, author: luisro, created: 1564411899408, flowName: StreamingIngestion,
+    flowDesc: ''}
   9e4f86db-fa1b-4088-9aee-d7990434351a: {ver: 1, file: WriteSQLServer.snapshot, comments: Initial
       commit, author: luisro, created: 1564411825219, flowName: WriteSQLServer, flowDesc: ''}
 layoutVer: 1

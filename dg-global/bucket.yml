@@ -3,6 +3,9 @@ flows:
     comments: Replacing the implemented REST call with the InvokeHTTP processor and
       clean up, author: anonymous, created: 1564004066858, flowName: RabbitMQIngestion,
     flowDesc: ''}
+  fe2813d5-9adc-4f14-b289-4a74dbae62a1: {ver: 1, file: MonitoringPGTest.snapshot,
+    comments: Initial commit, author: danielgo, created: 1564411622523, flowName: MonitoringPGTest,
+    flowDesc: ''}
   47c9813b-54da-4059-9d31-7cffaa1dcc84: {ver: 1, file: TestBatchIngestionRDBMS.snapshot,
     comments: Initial commit, author: rohanp, created: 1564156762645, flowName: TestBatchIngestionRDBMS,
     flowDesc: ''}

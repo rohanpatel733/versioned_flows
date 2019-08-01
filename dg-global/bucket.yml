@@ -14,6 +14,9 @@ flows:
   0ca1e024-7860-41aa-b12c-fff750130c43: {ver: 1, file: IntegrationTestGroup.snapshot,
     comments: Initial commit, author: danielgo, created: 1564411661372, flowName: IntegrationTestGroup,
     flowDesc: ''}
+  3c147090-3284-46e8-88b8-ba474287b1f8: {ver: 1, file: GetTokenFromVault.snapshot,
+    comments: Initial Commit, author: admin, created: 1564683474582, flowName: GetTokenFromVault,
+    flowDesc: ''}
   ef755db0-314e-4c07-86f0-77e3f2be06c4: {ver: 1, file: WFMKafkaIngestion.snapshot,
     comments: Initial commit, author: luisro, created: 1564412024161, flowName: WFMKafkaIngestion,
     flowDesc: ''}

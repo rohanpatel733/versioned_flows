@@ -43,36 +43,6 @@
       "destination" : {
         "comments" : "",
         "groupId" : "04084231-92e9-31e5-ab59-e1330054e59f",
-        "id" : "17594661-fca1-33d3-8243-a0b8f40f950f",
-        "name" : "EvaluateJsonPath",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "04084231-92e9-31e5-ab59-e1330054e59f",
-      "identifier" : "ce518329-07d4-3521-8702-104427616aab",
-      "labelIndex" : 1,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "Response" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "04084231-92e9-31e5-ab59-e1330054e59f",
-        "id" : "d78dbbd1-65c9-353e-822a-7254bdc2cb2f",
-        "name" : "InvokeHTTP",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "04084231-92e9-31e5-ab59-e1330054e59f",
         "id" : "3e1e63ae-b363-3322-8142-8c46452e77f5",
         "name" : "PutHBaseJSON",
         "type" : "PROCESSOR"
@@ -92,6 +62,36 @@
         "groupId" : "04084231-92e9-31e5-ab59-e1330054e59f",
         "id" : "55319d9c-d52c-3a7d-adcd-4a3db7cbfc0d",
         "name" : "ReplaceText",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "04084231-92e9-31e5-ab59-e1330054e59f",
+        "id" : "17594661-fca1-33d3-8243-a0b8f40f950f",
+        "name" : "EvaluateJsonPath",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "04084231-92e9-31e5-ab59-e1330054e59f",
+      "identifier" : "ce518329-07d4-3521-8702-104427616aab",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "Response" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "04084231-92e9-31e5-ab59-e1330054e59f",
+        "id" : "d78dbbd1-65c9-353e-822a-7254bdc2cb2f",
+        "name" : "InvokeHTTP",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -365,8 +365,8 @@
     "name" : "RabbitMQIngestion",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 1831.2918370133693,
-      "y" : 472.1240535216658
+      "x" : 1840.171740508681,
+      "y" : 481.1018062072127
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -759,7 +759,7 @@
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -350.6046019922611,
-        "y" : 648.8160501438331
+        "y" : 650.3671365696143
       },
       "properties" : {
         "Enable Unicode Predefined Character Classes" : "false",

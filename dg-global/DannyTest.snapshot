@@ -1,0 +1,25 @@
+{
+  "header" : {
+    "dataModelVersion" : "2"
+  },
+  "content" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ ],
+    "controllerServices" : [ ],
+    "funnels" : [ ],
+    "identifier" : "6224bb9a-e7da-3c51-b730-2c2b61fc0674",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "name" : "ULTI-318123-DannyTest",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 855.999755859375,
+      "y" : 196.99996948242188
+    },
+    "processGroups" : [ ],
+    "processors" : [ ],
+    "remoteProcessGroups" : [ ],
+    "variables" : { }
+  }
+}

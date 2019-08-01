@@ -5,6 +5,9 @@ flows:
   47c9813b-54da-4059-9d31-7cffaa1dcc84: {ver: 6, file: TestBatchIngestionRDBMS.snapshot,
     comments: Test commit when name of flow changed, author: rohanp, created: 1564668739878,
     flowName: TestBatchIngestionRDBMS, flowDesc: ''}
+  5e76f4b1-3f13-49d9-9fb6-ad61adf5e924: {ver: 1, file: DannyTest.snapshot, comments: initial
+      commit, author: rohanp, created: 1564668833431, flowName: DannyTest, flowDesc: just
+      a test. nothing to see here}
   821da22e-93ff-4df7-8a09-cbb955ca3c22: {ver: 1, file: BatchIngestionMongoDB.snapshot,
     comments: Initial commit, author: luisro, created: 1564411791132, flowName: BatchIngestionMongoDB,
     flowDesc: ''}

@@ -101,6 +101,35 @@
       "bends" : [ ],
       "componentType" : "CONNECTION",
       "destination" : {
+        "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
+        "id" : "daf15d9e-4912-305b-83fc-4a8975a37fdb",
+        "name" : "access_token",
+        "type" : "OUTPUT_PORT"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
+      "identifier" : "9b841326-bf3c-3a5f-be72-fa18d456f6aa",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "matched" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
+        "id" : "f5e340b5-bebe-3955-8008-71a7697edc65",
+        "name" : "ExtractText",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
         "comments" : "",
         "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
         "id" : "fe9cb818-4621-31b2-bcee-d95d7a4fbdbe",
@@ -237,10 +266,21 @@
     "inputPorts" : [ ],
     "labels" : [ ],
     "name" : "GetTokenFromVault",
-    "outputPorts" : [ ],
+    "outputPorts" : [ {
+      "componentType" : "OUTPUT_PORT",
+      "concurrentlySchedulableTaskCount" : 1,
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
+      "identifier" : "daf15d9e-4912-305b-83fc-4a8975a37fdb",
+      "name" : "access_token",
+      "position" : {
+        "x" : 977.2898168377023,
+        "y" : 861.3675333454369
+      },
+      "type" : "OUTPUT_PORT"
+    } ],
     "position" : {
-      "x" : 1415.7364475983154,
-      "y" : 484.711299879625
+      "x" : 1193.4285862701904,
+      "y" : 480.7057761979844
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -332,8 +372,8 @@
       "name" : "ExtractText",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 329.1601482710935,
-        "y" : 820.5601053961019
+        "x" : 323.4001385054685,
+        "y" : 809.0401469000082
       },
       "properties" : {
         "Enable Unicode Predefined Character Classes" : "false",
@@ -525,8 +565,8 @@
       "name" : "DebugFlow",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 334.91998713828104,
-        "y" : 1040.8801053961017
+        "x" : 323.39996760703104,
+        "y" : 1039.4400419195392
       },
       "properties" : {
         "Write Iterations" : "0",

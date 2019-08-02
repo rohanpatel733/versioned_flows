@@ -663,7 +663,7 @@
             "comments" : "",
             "groupId" : "0a4ee2c7-ba8e-35d5-9905-0f3e57836ab6",
             "id" : "4030bac4-0e75-3cfa-bea8-fc5e9462eaa5",
-            "name" : "CountTextNameChange",
+            "name" : "CountTextNameChangeTest",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
@@ -770,7 +770,7 @@
             "comments" : "",
             "groupId" : "0a4ee2c7-ba8e-35d5-9905-0f3e57836ab6",
             "id" : "4030bac4-0e75-3cfa-bea8-fc5e9462eaa5",
-            "name" : "CountTextNameChange",
+            "name" : "CountTextNameChangeTest",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -882,7 +882,7 @@
           "executionNode" : "ALL",
           "groupIdentifier" : "0a4ee2c7-ba8e-35d5-9905-0f3e57836ab6",
           "identifier" : "4030bac4-0e75-3cfa-bea8-fc5e9462eaa5",
-          "name" : "CountTextNameChange",
+          "name" : "CountTextNameChangeTest",
           "penaltyDuration" : "30 sec",
           "position" : {
             "x" : 566.0,

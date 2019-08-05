@@ -23,6 +23,9 @@ flows:
   af415884-e35d-4a36-b3f5-d084ff25bbe4: {ver: 3, file: RabbitMQIngestion.snapshot,
     comments: Using the access token, author: luisro, created: 1564768739189, flowName: RabbitMQIngestion,
     flowDesc: ''}
+  f085cbb7-efec-4043-925a-bdd705e24d5a: {ver: 1, file: GCPIntegration.snapshot, comments: Initial
+      commit, author: rohanp, created: 1565028588439, flowName: GCPIntegration, flowDesc: Integrate
+      NiFi with GCP and GCS}
   3c299aa0-50e7-4e3e-ace1-44526d012bda: {ver: 1, file: BatchIngestionRDBMS.snapshot,
     comments: Initial commit, author: luisro, created: 1564411865887, flowName: BatchIngestionRDBMS,
     flowDesc: ''}

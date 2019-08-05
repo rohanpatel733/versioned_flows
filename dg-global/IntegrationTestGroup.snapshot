@@ -1077,8 +1077,8 @@
         "name" : "UpdateCounter",
         "penaltyDuration" : "30 sec",
         "position" : {
-          "x" : 27.590349335043015,
-          "y" : 94.09555867775975
+          "x" : 249.59034933504302,
+          "y" : 92.09555867775975
         },
         "properties" : {
           "counter-name" : "test_input",

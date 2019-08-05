@@ -11,9 +11,15 @@ flows:
   49692811-6387-4d06-9e36-25ef5038c8a3: {ver: 1, file: RecKafkaIngestion.snapshot,
     comments: Initial commit, author: luisro, created: 1564411970502, flowName: RecKafkaIngestion,
     flowDesc: ''}
-  0ca1e024-7860-41aa-b12c-fff750130c43: {ver: 3, file: IntegrationTestGroup.snapshot,
-    comments: second test for event hook, author: danielgo, created: 1564770928638,
-    flowName: IntegrationTestGroup, flowDesc: ''}
+  0ca1e024-7860-41aa-b12c-fff750130c43:
+    ver: 4
+    file: IntegrationTestGroup.snapshot
+    comments: |
+      test commit
+    author: danielgo
+    created: 1565034378075
+    flowName: IntegrationTestGroup
+    flowDesc: ''
   3c147090-3284-46e8-88b8-ba474287b1f8: {ver: 3, file: GetTokenFromVault.snapshot,
     comments: 'Changed processor positions ', author: rohanp, created: 1564771310745,
     flowName: GetTokenFromVault, flowDesc: ''}

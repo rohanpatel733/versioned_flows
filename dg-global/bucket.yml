@@ -1,7 +1,4 @@
 flows:
-  fe2813d5-9adc-4f14-b289-4a74dbae62a1: {ver: 1, file: MonitoringPGTest.snapshot,
-    comments: Initial commit, author: danielgo, created: 1564411622523, flowName: MonitoringPGTest,
-    flowDesc: ''}
   47c9813b-54da-4059-9d31-7cffaa1dcc84: {ver: 9, file: TestBatchIngestionRDBMS.snapshot,
     comments: Changed the name of a processor, author: luisro, created: 1565033168854,
     flowName: TestBatchIngestionRDBMS, flowDesc: ''}
@@ -11,6 +8,22 @@ flows:
   49692811-6387-4d06-9e36-25ef5038c8a3: {ver: 1, file: RecKafkaIngestion.snapshot,
     comments: Initial commit, author: luisro, created: 1564411970502, flowName: RecKafkaIngestion,
     flowDesc: ''}
+  ef755db0-314e-4c07-86f0-77e3f2be06c4: {ver: 1, file: WFMKafkaIngestion.snapshot,
+    comments: Initial commit, author: luisro, created: 1564412024161, flowName: WFMKafkaIngestion,
+    flowDesc: ''}
+  f085cbb7-efec-4043-925a-bdd705e24d5a: {ver: 1, file: GCPIntegration.snapshot, comments: Initial
+      commit, author: rohanp, created: 1565028588439, flowName: GCPIntegration, flowDesc: Integrate
+      NiFi with GCP and GCS}
+  e46e0bd1-1757-4c4c-861d-0d0d86332bc3: {ver: 1, file: StreamingIngestion.snapshot,
+    comments: Initial commit, author: luisro, created: 1564411899408, flowName: StreamingIngestion,
+    flowDesc: ''}
+  fe2813d5-9adc-4f14-b289-4a74dbae62a1: {ver: 1, file: MonitoringPGTest.snapshot,
+    comments: Initial commit, author: danielgo, created: 1564411622523, flowName: MonitoringPGTest,
+    flowDesc: ''}
+  88d9df9c-9bdd-40d1-a767-94c4a9721217: {ver: 1, file: NiFiRegistryAlerting.snapshot,
+    comments: '', author: danielgo, created: 1565100486740, flowName: NiFiRegistryAlerting,
+    flowDesc: Recieves Kafka Messages when commits are made to NiFi registry and sends
+      alert to slack}
   0ca1e024-7860-41aa-b12c-fff750130c43:
     ver: 4
     file: IntegrationTestGroup.snapshot
@@ -23,23 +36,14 @@ flows:
   3c147090-3284-46e8-88b8-ba474287b1f8: {ver: 3, file: GetTokenFromVault.snapshot,
     comments: 'Changed processor positions ', author: rohanp, created: 1564771310745,
     flowName: GetTokenFromVault, flowDesc: ''}
-  ef755db0-314e-4c07-86f0-77e3f2be06c4: {ver: 1, file: WFMKafkaIngestion.snapshot,
-    comments: Initial commit, author: luisro, created: 1564412024161, flowName: WFMKafkaIngestion,
-    flowDesc: ''}
   af415884-e35d-4a36-b3f5-d084ff25bbe4: {ver: 3, file: RabbitMQIngestion.snapshot,
     comments: Using the access token, author: luisro, created: 1564768739189, flowName: RabbitMQIngestion,
     flowDesc: ''}
-  f085cbb7-efec-4043-925a-bdd705e24d5a: {ver: 1, file: GCPIntegration.snapshot, comments: Initial
-      commit, author: rohanp, created: 1565028588439, flowName: GCPIntegration, flowDesc: Integrate
-      NiFi with GCP and GCS}
   3c299aa0-50e7-4e3e-ace1-44526d012bda: {ver: 1, file: BatchIngestionRDBMS.snapshot,
     comments: Initial commit, author: luisro, created: 1564411865887, flowName: BatchIngestionRDBMS,
     flowDesc: ''}
   37865004-851f-49ab-8289-c9621387ee70: {ver: 1, file: schema-applier.snapshot, comments: Initial
       commit, author: luisro, created: 1564411938625, flowName: schema-applier, flowDesc: ''}
-  e46e0bd1-1757-4c4c-861d-0d0d86332bc3: {ver: 1, file: StreamingIngestion.snapshot,
-    comments: Initial commit, author: luisro, created: 1564411899408, flowName: StreamingIngestion,
-    flowDesc: ''}
   9e4f86db-fa1b-4088-9aee-d7990434351a: {ver: 1, file: WriteSQLServer.snapshot, comments: Initial
       commit, author: luisro, created: 1564411825219, flowName: WriteSQLServer, flowDesc: ''}
 layoutVer: 1

@@ -1,0 +1,343 @@
+{
+  "header" : {
+    "dataModelVersion" : "2"
+  },
+  "content" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "32200ee4-04f9-3ad0-86d7-f34d74f8d729",
+        "id" : "47eca482-f7bb-3523-b68d-ccf0fd1d2b28",
+        "name" : "DebugFlow",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "32200ee4-04f9-3ad0-86d7-f34d74f8d729",
+      "identifier" : "92f5bfe3-9bfb-359b-9ea4-34174222ab01",
+      "labelIndex" : 1,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "32200ee4-04f9-3ad0-86d7-f34d74f8d729",
+        "id" : "fafa8cd9-a799-37d1-807a-a1ebfbdce708",
+        "name" : "ConsumeKafka",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    } ],
+    "controllerServices" : [ ],
+    "funnels" : [ ],
+    "identifier" : "32200ee4-04f9-3ad0-86d7-f34d74f8d729",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "name" : "NiFiRegistryAlerting",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 1919.7236328125,
+      "y" : 630.2156829833984
+    },
+    "processGroups" : [ ],
+    "processors" : [ {
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-kafka-0-9-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0.3.4.0.0-155"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "32200ee4-04f9-3ad0-86d7-f34d74f8d729",
+      "identifier" : "fafa8cd9-a799-37d1-807a-a1ebfbdce708",
+      "name" : "ConsumeKafka",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 532.0000610351562,
+        "y" : 134.01171875
+      },
+      "properties" : {
+        "security.protocol" : "PLAINTEXT",
+        "max.poll.records" : "10000",
+        "max-uncommit-offset-wait" : "1 secs",
+        "group.id" : "group1",
+        "bootstrap.servers" : "dw-sb-31-mn04.mia.ucloud.int:6667,dw-sb-31-mn05.mia.ucloud.int:6667,dw-sb-31-mn06.mia.ucloud.int:6667",
+        "topic" : "nifi-alert-slack ",
+        "key-attribute-encoding" : "utf-8",
+        "auto.offset.reset" : "latest"
+      },
+      "propertyDescriptors" : {
+        "security.protocol" : {
+          "displayName" : "Security Protocol",
+          "identifiesControllerService" : false,
+          "name" : "security.protocol",
+          "sensitive" : false
+        },
+        "ssl.context.service" : {
+          "displayName" : "SSL Context Service",
+          "identifiesControllerService" : true,
+          "name" : "ssl.context.service",
+          "sensitive" : false
+        },
+        "max.poll.records" : {
+          "displayName" : "Max Poll Records",
+          "identifiesControllerService" : false,
+          "name" : "max.poll.records",
+          "sensitive" : false
+        },
+        "max-uncommit-offset-wait" : {
+          "displayName" : "Max Uncommitted Time",
+          "identifiesControllerService" : false,
+          "name" : "max-uncommit-offset-wait",
+          "sensitive" : false
+        },
+        "group.id" : {
+          "displayName" : "Group ID",
+          "identifiesControllerService" : false,
+          "name" : "group.id",
+          "sensitive" : false
+        },
+        "bootstrap.servers" : {
+          "displayName" : "Kafka Brokers",
+          "identifiesControllerService" : false,
+          "name" : "bootstrap.servers",
+          "sensitive" : false
+        },
+        "topic" : {
+          "displayName" : "Topic Name(s)",
+          "identifiesControllerService" : false,
+          "name" : "topic",
+          "sensitive" : false
+        },
+        "message-demarcator" : {
+          "displayName" : "Message Demarcator",
+          "identifiesControllerService" : false,
+          "name" : "message-demarcator",
+          "sensitive" : false
+        },
+        "key-attribute-encoding" : {
+          "displayName" : "Key Attribute Encoding",
+          "identifiesControllerService" : false,
+          "name" : "key-attribute-encoding",
+          "sensitive" : false
+        },
+        "auto.offset.reset" : {
+          "displayName" : "Offset Reset",
+          "identifiesControllerService" : false,
+          "name" : "auto.offset.reset",
+          "sensitive" : false
+        },
+        "sasl.kerberos.service.name" : {
+          "displayName" : "Kerberos Service Name",
+          "identifiesControllerService" : false,
+          "name" : "sasl.kerberos.service.name",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.kafka.pubsub.ConsumeKafka",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ "success", "failure" ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0.3.4.0.0-155"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "32200ee4-04f9-3ad0-86d7-f34d74f8d729",
+      "identifier" : "47eca482-f7bb-3523-b68d-ccf0fd1d2b28",
+      "name" : "DebugFlow",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 512.0000610351562,
+        "y" : 422.01171875
+      },
+      "properties" : {
+        "Write Iterations" : "0",
+        "No FlowFile Skip Iterations" : "1",
+        "No FlowFile Exception Iterations" : "0",
+        "Fail When @OnUnscheduled called" : "false",
+        "No FlowFile Yield Iterations" : "0",
+        "FlowFile Failure Iterations" : "0",
+        "CustomValidate Pause Time" : "0 sec",
+        "@OnScheduled Pause Time" : "0 sec",
+        "Fail When @OnStopped called" : "false",
+        "FlowFile Rollback Penalty Iterations" : "0",
+        "Content Size" : "1 KB",
+        "FlowFile Rollback Yield Iterations" : "0",
+        "FlowFile Rollback Iterations" : "0",
+        "No FlowFile Exception Class" : "java.lang.RuntimeException",
+        "Ignore Interrupts When Paused" : "false",
+        "Fail When @OnScheduled called" : "false",
+        "@OnUnscheduled Pause Time" : "0 sec",
+        "FlowFile Exception Iterations" : "0",
+        "FlowFile Success Iterations" : "1",
+        "@OnStopped Pause Time" : "0 sec",
+        "FlowFile Exception Class" : "java.lang.RuntimeException",
+        "OnTrigger Pause Time" : "0 sec"
+      },
+      "propertyDescriptors" : {
+        "Write Iterations" : {
+          "displayName" : "Write Iterations",
+          "identifiesControllerService" : false,
+          "name" : "Write Iterations",
+          "sensitive" : false
+        },
+        "No FlowFile Skip Iterations" : {
+          "displayName" : "No FlowFile Skip Iterations",
+          "identifiesControllerService" : false,
+          "name" : "No FlowFile Skip Iterations",
+          "sensitive" : false
+        },
+        "No FlowFile Exception Iterations" : {
+          "displayName" : "No FlowFile Exception Iterations",
+          "identifiesControllerService" : false,
+          "name" : "No FlowFile Exception Iterations",
+          "sensitive" : false
+        },
+        "Fail When @OnUnscheduled called" : {
+          "displayName" : "Fail When @OnUnscheduled called",
+          "identifiesControllerService" : false,
+          "name" : "Fail When @OnUnscheduled called",
+          "sensitive" : false
+        },
+        "No FlowFile Yield Iterations" : {
+          "displayName" : "No FlowFile Yield Iterations",
+          "identifiesControllerService" : false,
+          "name" : "No FlowFile Yield Iterations",
+          "sensitive" : false
+        },
+        "FlowFile Failure Iterations" : {
+          "displayName" : "FlowFile Failure Iterations",
+          "identifiesControllerService" : false,
+          "name" : "FlowFile Failure Iterations",
+          "sensitive" : false
+        },
+        "CustomValidate Pause Time" : {
+          "displayName" : "CustomValidate Pause Time",
+          "identifiesControllerService" : false,
+          "name" : "CustomValidate Pause Time",
+          "sensitive" : false
+        },
+        "@OnScheduled Pause Time" : {
+          "displayName" : "@OnScheduled Pause Time",
+          "identifiesControllerService" : false,
+          "name" : "@OnScheduled Pause Time",
+          "sensitive" : false
+        },
+        "Fail When @OnStopped called" : {
+          "displayName" : "Fail When @OnStopped called",
+          "identifiesControllerService" : false,
+          "name" : "Fail When @OnStopped called",
+          "sensitive" : false
+        },
+        "FlowFile Rollback Penalty Iterations" : {
+          "displayName" : "FlowFile Rollback Penalty Iterations",
+          "identifiesControllerService" : false,
+          "name" : "FlowFile Rollback Penalty Iterations",
+          "sensitive" : false
+        },
+        "Content Size" : {
+          "displayName" : "Content Size",
+          "identifiesControllerService" : false,
+          "name" : "Content Size",
+          "sensitive" : false
+        },
+        "FlowFile Rollback Yield Iterations" : {
+          "displayName" : "FlowFile Rollback Yield Iterations",
+          "identifiesControllerService" : false,
+          "name" : "FlowFile Rollback Yield Iterations",
+          "sensitive" : false
+        },
+        "FlowFile Rollback Iterations" : {
+          "displayName" : "FlowFile Rollback Iterations",
+          "identifiesControllerService" : false,
+          "name" : "FlowFile Rollback Iterations",
+          "sensitive" : false
+        },
+        "No FlowFile Exception Class" : {
+          "displayName" : "No FlowFile Exception Class",
+          "identifiesControllerService" : false,
+          "name" : "No FlowFile Exception Class",
+          "sensitive" : false
+        },
+        "Ignore Interrupts When Paused" : {
+          "displayName" : "Ignore Interrupts When Paused",
+          "identifiesControllerService" : false,
+          "name" : "Ignore Interrupts When Paused",
+          "sensitive" : false
+        },
+        "Fail When @OnScheduled called" : {
+          "displayName" : "Fail When @OnScheduled called",
+          "identifiesControllerService" : false,
+          "name" : "Fail When @OnScheduled called",
+          "sensitive" : false
+        },
+        "@OnUnscheduled Pause Time" : {
+          "displayName" : "@OnUnscheduled Pause Time",
+          "identifiesControllerService" : false,
+          "name" : "@OnUnscheduled Pause Time",
+          "sensitive" : false
+        },
+        "FlowFile Exception Iterations" : {
+          "displayName" : "FlowFile Exception Iterations",
+          "identifiesControllerService" : false,
+          "name" : "FlowFile Exception Iterations",
+          "sensitive" : false
+        },
+        "FlowFile Success Iterations" : {
+          "displayName" : "FlowFile Success Iterations",
+          "identifiesControllerService" : false,
+          "name" : "FlowFile Success Iterations",
+          "sensitive" : false
+        },
+        "@OnStopped Pause Time" : {
+          "displayName" : "@OnStopped Pause Time",
+          "identifiesControllerService" : false,
+          "name" : "@OnStopped Pause Time",
+          "sensitive" : false
+        },
+        "FlowFile Exception Class" : {
+          "displayName" : "FlowFile Exception Class",
+          "identifiesControllerService" : false,
+          "name" : "FlowFile Exception Class",
+          "sensitive" : false
+        },
+        "OnTrigger Pause Time" : {
+          "displayName" : "OnTrigger Pause Time",
+          "identifiesControllerService" : false,
+          "name" : "OnTrigger Pause Time",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.DebugFlow",
+      "yieldDuration" : "1 sec"
+    } ],
+    "remoteProcessGroups" : [ ],
+    "variables" : { }
+  }
+}

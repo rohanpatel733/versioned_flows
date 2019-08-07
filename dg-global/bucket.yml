@@ -11,9 +11,9 @@ flows:
   ef755db0-314e-4c07-86f0-77e3f2be06c4: {ver: 1, file: WFMKafkaIngestion.snapshot,
     comments: Initial commit, author: luisro, created: 1564412024161, flowName: WFMKafkaIngestion,
     flowDesc: ''}
-  f085cbb7-efec-4043-925a-bdd705e24d5a: {ver: 1, file: GCPIntegration.snapshot, comments: Initial
-      commit, author: rohanp, created: 1565028588439, flowName: GCPIntegration, flowDesc: Integrate
-      NiFi with GCP and GCS}
+  f085cbb7-efec-4043-925a-bdd705e24d5a: {ver: 2, file: GCPIntegration.snapshot, comments: Move
+      files from one bucket to another in GCS, author: rohanp, created: 1565186299423,
+    flowName: GCPIntegration, flowDesc: Integrate NiFi with GCP and GCS}
   e46e0bd1-1757-4c4c-861d-0d0d86332bc3: {ver: 1, file: StreamingIngestion.snapshot,
     comments: Initial commit, author: luisro, created: 1564411899408, flowName: StreamingIngestion,
     flowDesc: ''}

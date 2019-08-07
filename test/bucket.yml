@@ -1,0 +1,6 @@
+flows:
+  615da31c-e0dd-4662-8b10-1f616d407b32: {ver: 1, file: GCPIntegration-GCP.snapshot,
+    comments: Initial commit, author: admin, created: 1565203802532, flowName: GCPIntegration-GCP,
+    flowDesc: Integrate NiFi with GCP Pub/Sub}
+layoutVer: 1
+bucketId: efe2a2b7-6637-417e-b3a9-254698976c49

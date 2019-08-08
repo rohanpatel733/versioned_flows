@@ -24,9 +24,9 @@ flows:
     comments: '', author: danielgo, created: 1565100486740, flowName: NiFiRegistryAlerting,
     flowDesc: Recieves Kafka Messages when commits are made to NiFi registry and sends
       alert to slack}
-  a4f40215-d9db-4e5f-89fd-b4e910e52126: {ver: 1, file: GCPIntegration-GCS.snapshot,
-    comments: Initial commit, author: admin, created: 1565203776704, flowName: GCPIntegration-GCS,
-    flowDesc: Integrating NiFi with GCS}
+  a4f40215-d9db-4e5f-89fd-b4e910e52126: {ver: 2, file: GCPIntegration-GCS.snapshot,
+    comments: Changed positions of processors, author: rohanp, created: 1565292942449,
+    flowName: GCPIntegration-GCS, flowDesc: Integrating NiFi with GCS}
   0ca1e024-7860-41aa-b12c-fff750130c43:
     ver: 4
     file: IntegrationTestGroup.snapshot

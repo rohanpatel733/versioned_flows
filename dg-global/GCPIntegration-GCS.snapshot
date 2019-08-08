@@ -507,8 +507,8 @@
       "name" : "ListGCSBucket",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 1556.9564415772156,
-        "y" : 1413.2974809317643
+        "x" : 1505.3014122803406,
+        "y" : 1411.2313188223893
       },
       "properties" : {
         "GCP Credentials Provider Service" : "e0dc8fba-6c7f-31de-9140-dc18f583382a",
@@ -609,7 +609,7 @@
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : 2165.9624118382826,
-        "y" : 1413.2974809317643
+        "y" : 1411.2313188223893
       },
       "properties" : {
         "GCP Credentials Provider Service" : "e0dc8fba-6c7f-31de-9140-dc18f583382a",
@@ -716,7 +716,7 @@
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : 2809.1309440557893,
-        "y" : 1413.2974809317643
+        "y" : 1411.2313188223893
       },
       "properties" : {
         "Write Iterations" : "0",

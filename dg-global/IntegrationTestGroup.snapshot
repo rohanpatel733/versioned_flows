@@ -648,8 +648,8 @@
       "name" : "TestCase1",
       "outputPorts" : [ ],
       "position" : {
-        "x" : -749.0,
-        "y" : -143.7499920129776
+        "x" : -760.0,
+        "y" : -81.7499908208847
       },
       "processGroups" : [ {
         "comments" : "",

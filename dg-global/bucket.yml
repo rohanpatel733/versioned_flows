@@ -30,9 +30,6 @@ flows:
   a4f40215-d9db-4e5f-89fd-b4e910e52126: {ver: 2, file: GCPIntegration-GCS.snapshot,
     comments: Changed positions of processors, author: rohanp, created: 1565292942449,
     flowName: GCPIntegration-GCS, flowDesc: Integrating NiFi with GCS}
-  0ca1e024-7860-41aa-b12c-fff750130c43: {ver: 16, file: IntegrationTestGroup.snapshot,
-    comments: test, author: danielgo, created: 1565361310638, flowName: IntegrationTestGroup,
-    flowDesc: ''}
   3c147090-3284-46e8-88b8-ba474287b1f8: {ver: 3, file: GetTokenFromVault.snapshot,
     comments: 'Changed processor positions ', author: rohanp, created: 1564771310745,
     flowName: GetTokenFromVault, flowDesc: ''}

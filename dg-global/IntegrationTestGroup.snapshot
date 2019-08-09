@@ -392,8 +392,8 @@
         "type" : "OUTPUT_PORT"
       } ],
       "position" : {
-        "x" : 58.0,
-        "y" : -129.74999237060547
+        "x" : 97.0,
+        "y" : -88.74999332427979
       },
       "processGroups" : [ ],
       "processors" : [ {
@@ -1290,8 +1290,8 @@
       "name" : "TestCase2",
       "outputPorts" : [ ],
       "position" : {
-        "x" : -346.0,
-        "y" : -129.74999237060547
+        "x" : -352.0,
+        "y" : -84.74999368190765
       },
       "processGroups" : [ {
         "comments" : "",

@@ -30,8 +30,8 @@ flows:
   a4f40215-d9db-4e5f-89fd-b4e910e52126: {ver: 2, file: GCPIntegration-GCS.snapshot,
     comments: Changed positions of processors, author: rohanp, created: 1565292942449,
     flowName: GCPIntegration-GCS, flowDesc: Integrating NiFi with GCS}
-  77e3bb72-64b3-40d8-bfc3-8227dc63e22c: {ver: 6, file: IntegrationTestGroup.snapshot,
-    comments: finalt est before meeting, author: danielgo, created: 1565362236245,
+  77e3bb72-64b3-40d8-bfc3-8227dc63e22c: {ver: 7, file: IntegrationTestGroup.snapshot,
+    comments: what does that even mean kobe bryant, author: danielgo, created: 1565362368474,
     flowName: IntegrationTestGroup, flowDesc: ''}
   3c147090-3284-46e8-88b8-ba474287b1f8: {ver: 3, file: GetTokenFromVault.snapshot,
     comments: 'Changed processor positions ', author: rohanp, created: 1564771310745,

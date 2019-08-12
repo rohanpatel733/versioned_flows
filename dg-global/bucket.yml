@@ -44,7 +44,8 @@ flows:
     flowDesc: ''}
   37865004-851f-49ab-8289-c9621387ee70: {ver: 1, file: schema-applier.snapshot, comments: Initial
       commit, author: luisro, created: 1564411938625, flowName: schema-applier, flowDesc: ''}
-  9e4f86db-fa1b-4088-9aee-d7990434351a: {ver: 1, file: WriteSQLServer.snapshot, comments: Initial
-      commit, author: luisro, created: 1564411825219, flowName: WriteSQLServer, flowDesc: ''}
+  9e4f86db-fa1b-4088-9aee-d7990434351a: {ver: 2, file: WriteSQLServer.snapshot, comments: Added
+      the Fact related processors, author: luisro, created: 1565622597881, flowName: WriteSQLServer,
+    flowDesc: ''}
 layoutVer: 1
 bucketId: 43324b63-837b-4a82-8458-5e7b3625cd45

@@ -42,9 +42,9 @@ flows:
   77e3bb72-64b3-40d8-bfc3-8227dc63e22c: {ver: 8, file: IntegrationTestGroup.snapshot,
     comments: final test commit, author: danielgo, created: 1565363742690, flowName: IntegrationTestGroup,
     flowDesc: ''}
-  3c147090-3284-46e8-88b8-ba474287b1f8: {ver: 3, file: GetTokenFromVault.snapshot,
-    comments: 'Changed processor positions ', author: rohanp, created: 1564771310745,
-    flowName: GetTokenFromVault, flowDesc: ''}
+  3c147090-3284-46e8-88b8-ba474287b1f8: {ver: 4, file: GetTokenFromVault.snapshot,
+    comments: Clean up, author: luisro, created: 1565727761883, flowName: GetTokenFromVault,
+    flowDesc: ''}
   af415884-e35d-4a36-b3f5-d084ff25bbe4: {ver: 5, file: RabbitMQIngestion.snapshot,
     comments: 'Clean up ', author: luisro, created: 1565727751930, flowName: RabbitMQIngestion,
     flowDesc: ''}

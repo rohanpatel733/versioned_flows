@@ -12,13 +12,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+        "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
         "id" : "033522e3-3fc7-397b-80f6-2648040bb98d",
         "name" : "EvaluateJsonPath",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
       "identifier" : "3343b2e6-f7d4-3667-9346-cf78f9697e0c",
       "labelIndex" : 1,
       "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -29,7 +29,7 @@
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+        "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
         "id" : "3f80790c-fde8-3169-a0ad-c7213a77042c",
         "name" : "CompressContent",
         "type" : "PROCESSOR"
@@ -42,13 +42,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+        "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
         "id" : "f5e340b5-bebe-3955-8008-71a7697edc65",
         "name" : "ExtractText",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
       "identifier" : "cafb5591-4d67-354f-9e2d-e397bbad394c",
       "labelIndex" : 1,
       "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -59,7 +59,7 @@
       "selectedRelationships" : [ "matched" ],
       "source" : {
         "comments" : "",
-        "groupId" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+        "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
         "id" : "033522e3-3fc7-397b-80f6-2648040bb98d",
         "name" : "EvaluateJsonPath",
         "type" : "PROCESSOR"
@@ -72,43 +72,14 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "bed03dca-4737-3812-9921-ddb50d121b3e",
-        "id" : "c373ffe0-4ce5-38d9-a3e7-ad20aa08e66e",
-        "name" : "DebugFlow",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
-      "identifier" : "d10d41a8-e1ed-3817-ad89-fd5a91967c81",
-      "labelIndex" : 1,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "matched" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "bed03dca-4737-3812-9921-ddb50d121b3e",
-        "id" : "f5e340b5-bebe-3955-8008-71a7697edc65",
-        "name" : "ExtractText",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "groupId" : "bed03dca-4737-3812-9921-ddb50d121b3e",
-        "id" : "daf15d9e-4912-305b-83fc-4a8975a37fdb",
+        "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
+        "id" : "abc43deb-517f-3564-b8c0-f99f7d004556",
         "name" : "access_token",
         "type" : "OUTPUT_PORT"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
-      "identifier" : "9b841326-bf3c-3a5f-be72-fa18d456f6aa",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
+      "identifier" : "04499902-a463-3f64-92fa-0c3c7ebac930",
       "labelIndex" : 1,
       "loadBalanceCompression" : "DO_NOT_COMPRESS",
       "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -118,7 +89,7 @@
       "selectedRelationships" : [ "matched" ],
       "source" : {
         "comments" : "",
-        "groupId" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+        "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
         "id" : "f5e340b5-bebe-3955-8008-71a7697edc65",
         "name" : "ExtractText",
         "type" : "PROCESSOR"
@@ -131,13 +102,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+        "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
         "id" : "fe9cb818-4621-31b2-bcee-d95d7a4fbdbe",
         "name" : "InvokeHTTP",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
       "identifier" : "5023ffa7-c934-33fd-9fd9-6b0f8fab0fb2",
       "labelIndex" : 1,
       "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -148,7 +119,7 @@
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+        "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
         "id" : "e5d31ce3-6022-395e-92df-ee9098dba160",
         "name" : "GenerateFlowFile",
         "type" : "PROCESSOR"
@@ -161,13 +132,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+        "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
         "id" : "3f80790c-fde8-3169-a0ad-c7213a77042c",
         "name" : "CompressContent",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
       "identifier" : "4d006c85-d4dc-3d65-ab65-1f617661f97a",
       "labelIndex" : 1,
       "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -178,7 +149,7 @@
       "selectedRelationships" : [ "Response" ],
       "source" : {
         "comments" : "",
-        "groupId" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+        "groupId" : "af377143-84be-3799-9c37-d96c6b3d3a19",
         "id" : "fe9cb818-4621-31b2-bcee-d95d7a4fbdbe",
         "name" : "InvokeHTTP",
         "type" : "PROCESSOR"
@@ -201,7 +172,7 @@
         },
         "type" : "org.apache.nifi.ssl.SSLContextService"
       } ],
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
       "identifier" : "58cc02c6-a1fe-3f48-baa4-066cad085334",
       "name" : "StandardSSLContextService",
       "properties" : {
@@ -260,27 +231,86 @@
         }
       },
       "type" : "org.apache.nifi.ssl.StandardSSLContextService"
+    }, {
+      "bundle" : {
+        "artifact" : "nifi-hbase_2-client-service-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.9.0.3.4.0.0-155"
+      },
+      "comments" : "",
+      "componentType" : "CONTROLLER_SERVICE",
+      "controllerServiceApis" : [ {
+        "bundle" : {
+          "artifact" : "nifi-standard-services-api-nar",
+          "group" : "org.apache.nifi",
+          "version" : "1.9.0.3.4.0.0-155"
+        },
+        "type" : "org.apache.nifi.distributed.cache.client.DistributedMapCacheClient"
+      } ],
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
+      "identifier" : "2920f02a-c986-31d9-bf6f-99e99983901a",
+      "name" : "HBase_2_ClientMapCacheService",
+      "properties" : {
+        "HBase Cache Table Name" : "token",
+        "HBase Client Service" : "0a65c34d-fe90-3a77-b421-dc0754235ade",
+        "HBase Column Family" : "f",
+        "HBase Column Qualifier" : "q"
+      },
+      "propertyDescriptors" : {
+        "HBase Cache Table Name" : {
+          "displayName" : "HBase Cache Table Name",
+          "identifiesControllerService" : false,
+          "name" : "HBase Cache Table Name",
+          "sensitive" : false
+        },
+        "HBase Client Service" : {
+          "displayName" : "HBase Client Service",
+          "identifiesControllerService" : true,
+          "name" : "HBase Client Service",
+          "sensitive" : false
+        },
+        "HBase Column Family" : {
+          "displayName" : "HBase Column Family",
+          "identifiesControllerService" : false,
+          "name" : "HBase Column Family",
+          "sensitive" : false
+        },
+        "HBase Column Qualifier" : {
+          "displayName" : "HBase Column Qualifier",
+          "identifiesControllerService" : false,
+          "name" : "HBase Column Qualifier",
+          "sensitive" : false
+        },
+        "hb-lu-authorizations" : {
+          "displayName" : "Authorizations",
+          "identifiesControllerService" : false,
+          "name" : "hb-lu-authorizations",
+          "sensitive" : false
+        }
+      },
+      "type" : "org.apache.nifi.hbase.HBase_2_ClientMapCacheService"
     } ],
     "funnels" : [ ],
-    "identifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+    "identifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
     "inputPorts" : [ ],
     "labels" : [ ],
     "name" : "GetTokenFromVault",
     "outputPorts" : [ {
+      "comments" : "",
       "componentType" : "OUTPUT_PORT",
       "concurrentlySchedulableTaskCount" : 1,
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
-      "identifier" : "daf15d9e-4912-305b-83fc-4a8975a37fdb",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
+      "identifier" : "abc43deb-517f-3564-b8c0-f99f7d004556",
       "name" : "access_token",
       "position" : {
-        "x" : 977.2898168377023,
-        "y" : 849.0401469000082
+        "x" : 376.9421321579912,
+        "y" : 1031.0299111839363
       },
       "type" : "OUTPUT_PORT"
     } ],
     "position" : {
-      "x" : -104.97305847598409,
-      "y" : 2422.19431222273
+      "x" : 1203.867429043628,
+      "y" : 486.7886483803329
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -295,7 +325,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "PRIMARY",
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
       "identifier" : "e5d31ce3-6022-395e-92df-ee9098dba160",
       "name" : "GenerateFlowFile",
       "penaltyDuration" : "30 sec",
@@ -350,7 +380,7 @@
         }
       },
       "runDurationMillis" : 0,
-      "schedulingPeriod" : "3598 sec",
+      "schedulingPeriod" : "3600 sec",
       "schedulingStrategy" : "TIMER_DRIVEN",
       "style" : { },
       "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
@@ -367,7 +397,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
       "identifier" : "f5e340b5-bebe-3955-8008-71a7697edc65",
       "name" : "ExtractText",
       "penaltyDuration" : "30 sec",
@@ -502,7 +532,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
       "identifier" : "3f80790c-fde8-3169-a0ad-c7213a77042c",
       "name" : "CompressContent",
       "penaltyDuration" : "30 sec",
@@ -549,190 +579,6 @@
       "type" : "org.apache.nifi.processors.standard.CompressContent",
       "yieldDuration" : "1 sec"
     }, {
-      "autoTerminatedRelationships" : [ "success", "failure" ],
-      "bulletinLevel" : "WARN",
-      "bundle" : {
-        "artifact" : "nifi-standard-nar",
-        "group" : "org.apache.nifi",
-        "version" : "1.9.0.3.4.0.0-155"
-      },
-      "comments" : "",
-      "componentType" : "PROCESSOR",
-      "concurrentlySchedulableTaskCount" : 1,
-      "executionNode" : "ALL",
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
-      "identifier" : "c373ffe0-4ce5-38d9-a3e7-ad20aa08e66e",
-      "name" : "DebugFlow",
-      "penaltyDuration" : "30 sec",
-      "position" : {
-        "x" : 322.0400249800779,
-        "y" : 1039.4400419195392
-      },
-      "properties" : {
-        "Write Iterations" : "0",
-        "No FlowFile Skip Iterations" : "1",
-        "No FlowFile Exception Iterations" : "0",
-        "Fail When @OnUnscheduled called" : "false",
-        "No FlowFile Yield Iterations" : "0",
-        "FlowFile Failure Iterations" : "0",
-        "CustomValidate Pause Time" : "0 sec",
-        "@OnScheduled Pause Time" : "0 sec",
-        "Fail When @OnStopped called" : "false",
-        "FlowFile Rollback Penalty Iterations" : "0",
-        "Content Size" : "1 KB",
-        "FlowFile Rollback Yield Iterations" : "0",
-        "FlowFile Rollback Iterations" : "0",
-        "No FlowFile Exception Class" : "java.lang.RuntimeException",
-        "Ignore Interrupts When Paused" : "false",
-        "Fail When @OnScheduled called" : "false",
-        "@OnUnscheduled Pause Time" : "0 sec",
-        "FlowFile Exception Iterations" : "0",
-        "FlowFile Success Iterations" : "1",
-        "@OnStopped Pause Time" : "0 sec",
-        "FlowFile Exception Class" : "java.lang.RuntimeException",
-        "OnTrigger Pause Time" : "0 sec"
-      },
-      "propertyDescriptors" : {
-        "Write Iterations" : {
-          "displayName" : "Write Iterations",
-          "identifiesControllerService" : false,
-          "name" : "Write Iterations",
-          "sensitive" : false
-        },
-        "No FlowFile Skip Iterations" : {
-          "displayName" : "No FlowFile Skip Iterations",
-          "identifiesControllerService" : false,
-          "name" : "No FlowFile Skip Iterations",
-          "sensitive" : false
-        },
-        "No FlowFile Exception Iterations" : {
-          "displayName" : "No FlowFile Exception Iterations",
-          "identifiesControllerService" : false,
-          "name" : "No FlowFile Exception Iterations",
-          "sensitive" : false
-        },
-        "Fail When @OnUnscheduled called" : {
-          "displayName" : "Fail When @OnUnscheduled called",
-          "identifiesControllerService" : false,
-          "name" : "Fail When @OnUnscheduled called",
-          "sensitive" : false
-        },
-        "No FlowFile Yield Iterations" : {
-          "displayName" : "No FlowFile Yield Iterations",
-          "identifiesControllerService" : false,
-          "name" : "No FlowFile Yield Iterations",
-          "sensitive" : false
-        },
-        "FlowFile Failure Iterations" : {
-          "displayName" : "FlowFile Failure Iterations",
-          "identifiesControllerService" : false,
-          "name" : "FlowFile Failure Iterations",
-          "sensitive" : false
-        },
-        "CustomValidate Pause Time" : {
-          "displayName" : "CustomValidate Pause Time",
-          "identifiesControllerService" : false,
-          "name" : "CustomValidate Pause Time",
-          "sensitive" : false
-        },
-        "@OnScheduled Pause Time" : {
-          "displayName" : "@OnScheduled Pause Time",
-          "identifiesControllerService" : false,
-          "name" : "@OnScheduled Pause Time",
-          "sensitive" : false
-        },
-        "Fail When @OnStopped called" : {
-          "displayName" : "Fail When @OnStopped called",
-          "identifiesControllerService" : false,
-          "name" : "Fail When @OnStopped called",
-          "sensitive" : false
-        },
-        "FlowFile Rollback Penalty Iterations" : {
-          "displayName" : "FlowFile Rollback Penalty Iterations",
-          "identifiesControllerService" : false,
-          "name" : "FlowFile Rollback Penalty Iterations",
-          "sensitive" : false
-        },
-        "Content Size" : {
-          "displayName" : "Content Size",
-          "identifiesControllerService" : false,
-          "name" : "Content Size",
-          "sensitive" : false
-        },
-        "FlowFile Rollback Yield Iterations" : {
-          "displayName" : "FlowFile Rollback Yield Iterations",
-          "identifiesControllerService" : false,
-          "name" : "FlowFile Rollback Yield Iterations",
-          "sensitive" : false
-        },
-        "FlowFile Rollback Iterations" : {
-          "displayName" : "FlowFile Rollback Iterations",
-          "identifiesControllerService" : false,
-          "name" : "FlowFile Rollback Iterations",
-          "sensitive" : false
-        },
-        "No FlowFile Exception Class" : {
-          "displayName" : "No FlowFile Exception Class",
-          "identifiesControllerService" : false,
-          "name" : "No FlowFile Exception Class",
-          "sensitive" : false
-        },
-        "Ignore Interrupts When Paused" : {
-          "displayName" : "Ignore Interrupts When Paused",
-          "identifiesControllerService" : false,
-          "name" : "Ignore Interrupts When Paused",
-          "sensitive" : false
-        },
-        "Fail When @OnScheduled called" : {
-          "displayName" : "Fail When @OnScheduled called",
-          "identifiesControllerService" : false,
-          "name" : "Fail When @OnScheduled called",
-          "sensitive" : false
-        },
-        "@OnUnscheduled Pause Time" : {
-          "displayName" : "@OnUnscheduled Pause Time",
-          "identifiesControllerService" : false,
-          "name" : "@OnUnscheduled Pause Time",
-          "sensitive" : false
-        },
-        "FlowFile Exception Iterations" : {
-          "displayName" : "FlowFile Exception Iterations",
-          "identifiesControllerService" : false,
-          "name" : "FlowFile Exception Iterations",
-          "sensitive" : false
-        },
-        "FlowFile Success Iterations" : {
-          "displayName" : "FlowFile Success Iterations",
-          "identifiesControllerService" : false,
-          "name" : "FlowFile Success Iterations",
-          "sensitive" : false
-        },
-        "@OnStopped Pause Time" : {
-          "displayName" : "@OnStopped Pause Time",
-          "identifiesControllerService" : false,
-          "name" : "@OnStopped Pause Time",
-          "sensitive" : false
-        },
-        "FlowFile Exception Class" : {
-          "displayName" : "FlowFile Exception Class",
-          "identifiesControllerService" : false,
-          "name" : "FlowFile Exception Class",
-          "sensitive" : false
-        },
-        "OnTrigger Pause Time" : {
-          "displayName" : "OnTrigger Pause Time",
-          "identifiesControllerService" : false,
-          "name" : "OnTrigger Pause Time",
-          "sensitive" : false
-        }
-      },
-      "runDurationMillis" : 0,
-      "schedulingPeriod" : "0 sec",
-      "schedulingStrategy" : "TIMER_DRIVEN",
-      "style" : { },
-      "type" : "org.apache.nifi.processors.standard.DebugFlow",
-      "yieldDuration" : "1 sec"
-    }, {
       "autoTerminatedRelationships" : [ "failure", "unmatched" ],
       "bulletinLevel" : "WARN",
       "bundle" : {
@@ -744,7 +590,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
       "identifier" : "033522e3-3fc7-397b-80f6-2648040bb98d",
       "name" : "EvaluateJsonPath",
       "penaltyDuration" : "30 sec",
@@ -809,7 +655,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "PRIMARY",
-      "groupIdentifier" : "bed03dca-4737-3812-9921-ddb50d121b3e",
+      "groupIdentifier" : "af377143-84be-3799-9c37-d96c6b3d3a19",
       "identifier" : "fe9cb818-4621-31b2-bcee-d95d7a4fbdbe",
       "name" : "InvokeHTTP",
       "penaltyDuration" : "30 sec",

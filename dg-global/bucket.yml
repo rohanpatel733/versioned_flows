@@ -45,9 +45,9 @@ flows:
   3c147090-3284-46e8-88b8-ba474287b1f8: {ver: 3, file: GetTokenFromVault.snapshot,
     comments: 'Changed processor positions ', author: rohanp, created: 1564771310745,
     flowName: GetTokenFromVault, flowDesc: ''}
-  af415884-e35d-4a36-b3f5-d084ff25bbe4: {ver: 4, file: RabbitMQIngestion.snapshot,
-    comments: 'Added application processors ', author: luisro, created: 1565622556594,
-    flowName: RabbitMQIngestion, flowDesc: ''}
+  af415884-e35d-4a36-b3f5-d084ff25bbe4: {ver: 5, file: RabbitMQIngestion.snapshot,
+    comments: 'Clean up ', author: luisro, created: 1565727751930, flowName: RabbitMQIngestion,
+    flowDesc: ''}
   3c299aa0-50e7-4e3e-ace1-44526d012bda: {ver: 1, file: BatchIngestionRDBMS.snapshot,
     comments: Initial commit, author: luisro, created: 1564411865887, flowName: BatchIngestionRDBMS,
     flowDesc: ''}

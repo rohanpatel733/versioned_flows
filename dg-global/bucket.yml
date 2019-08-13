@@ -1,4 +1,13 @@
 flows:
+  d22f9b1f-eae5-4b47-9d41-936fcbedcd04:
+    ver: 1
+    file: Flow_Promotion_testing.snapshot
+    comments: |
+      Second commit
+    author: admin
+    created: 1565720730858
+    flowName: Flow Promotion testing
+    flowDesc: ''
   821da22e-93ff-4df7-8a09-cbb955ca3c22: {ver: 1, file: BatchIngestionMongoDB.snapshot,
     comments: Initial commit, author: luisro, created: 1564411791132, flowName: BatchIngestionMongoDB,
     flowDesc: ''}

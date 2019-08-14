@@ -26,9 +26,9 @@ flows:
   e46e0bd1-1757-4c4c-861d-0d0d86332bc3: {ver: 1, file: StreamingIngestion.snapshot,
     comments: Initial commit, author: luisro, created: 1564411899408, flowName: StreamingIngestion,
     flowDesc: ''}
-  dc7dbfa6-93db-45d7-8c37-59ab06856e56: {ver: 1, file: TestBatchIngestionRDBMS.snapshot,
-    comments: Initial commit, author: rohanp, created: 1565375876938, flowName: TestBatchIngestionRDBMS,
-    flowDesc: Test flow}
+  dc7dbfa6-93db-45d7-8c37-59ab06856e56: {ver: 2, file: TestBatchIngestionRDBMS.snapshot,
+    comments: Changed the processor name, author: danielgo, created: 1565795176641,
+    flowName: TestBatchIngestionRDBMS, flowDesc: Test flow}
   fe2813d5-9adc-4f14-b289-4a74dbae62a1: {ver: 1, file: MonitoringPGTest.snapshot,
     comments: Initial commit, author: danielgo, created: 1564411622523, flowName: MonitoringPGTest,
     flowDesc: ''}
